@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="skaLAGLasers" name="Lasers" description="Laser Weapons include the Ares Archon Heavy MP Laser, Ares Armatus, Ares Lancer MP Laser, Ares Redline, and the Underbarrel Laser." compset="SkillAct" summary="Laser Weapons include the Ares Archon Heavy MP Laser, Ares Armatus, Ares Lancer MP Laser, Ares Redline, and the Underbarrel Laser.">
+    <usesource source="RH_Exotics"/>
+    <tag group="SkillHelp" tag="NoSpecial"/>
+    <tag group="User" tag="Unique"/>
+    <tag group="SkillCat" tag="Combat"/>
+    <tag group="AttrPool" tag="attrAgi"/>
+    <tag group="SkillHelp" tag="CanDefault"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLAGBiosprays" name="Bio-sprays" description="BioSprays include Chemical Glands(Exhalation), Chemical Glands(Spitter), Corrosive Spit, Natural Venoms(Exhalation), Natural Venoms(Spit), and Spidersilk Glands" compset="SkillAct" summary="BioSprays include Chemical Glands(Exhalation), Chemical Glands(Spitter), Corrosive Spit, Natural Venoms(Exhalation), Natural Venoms(Spit), and Spidersilk Glands">
+    <usesource source="RH_Exotics" parent="UserParent" name="RunnerHub Exotic Weapons"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLAGDEW" name="Directed Energy Weapons" description="Directed Energy Weapons include the Ares Screech Sonic Rifle, the Fichetti Pain Inducer, and the Narcoject PEP." compset="SkillAct" summary="Directed Energy Weapons include the Ares Screech Sonic Rifle, the Fichetti Pain Inducer, and the Narcoject PEP.">
+    <usesource source="RH_Exotics"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLAGChainsaws" name="Chainsaws" description="Chainsaws include the Ash Arms Combat Chainsaw, the Ash Arms Monofilament Chainsaw, the Non-Combat Chainsaws, and Underbarrel Chainsaws." compset="SkillAct" summary="Chainsaws include the Ash Arms Combat Chainsaw, the Ash Arms Monofilament Chainsaw, the Non-Combat Chainsaws, and Underbarrel Chainsaws.">
+    <usesource source="RH_Exotics"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLAGFlamers" name="Flame Weapons" description="Flame Weapons include Flame Bracers, the Halloweener Barbeque Lighter, the Shiawase Arms Incinerator, the Shiawase Blazer, and Underbarrel Flamethrowers." compset="SkillAct" summary="Flame Weapons include Flame Bracers, the Halloweener Barbeque Lighter, the Shiawase Arms Incinerator, the Shiawase Blazer, and Underbarrel Flamethrowers.">
+    <usesource source="RH_Exotics"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLAGMonofilamen" name="Monofilament Weapons" description="Monofilament Weapons include Monofilament Bolas, Monofilament Garrotes, Monofilament Whips, Monofilament Yo-Yos, and Monowire." compset="SkillAct" summary="Monofilament Weapons include Monofilament Bolas, Monofilament Garrotes, Monofilament Whips, Monofilament Yo-Yos, and Monowire.">
+    <usesource source="RH_Exotics"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLAGSprayGuns" name="Spray Guns" description="Spray Guns include the Ares S-III Super Squirt, Atomizers, Modified Spray Pens, the Narcoject Gas Gun, the Narcoject Trackstopper, and Pepper Punch Pens." compset="SkillAct" summary="Spray Guns include the Ares S-III Super Squirt, Atomizers, Modified Spray Pens, the Narcoject Gas Gun, the Narcoject Trackstopper, and Pepper Punch Pens.">
+    <usesource source="RH_Exotics"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="eqLAGEfire2" name="Electronic Firing(RunnerHub)" description="With this modification, most of the weapon&apos;s moving parts are removed so that it can fire electronically, meaning that an electrical signal detonates the bullet&apos;s propellant. This provides 1 point of recoil compensation and a -1 dice pool modifier to sound-based Perception Tests when trying to locate where the weapon is being fired from. Electronic firing is usually combined with trigger removal (see p. 182) to further reduce the number of moving parts, but this is not mandatory. The weapon still includes a loading mechanism that moves the bullet into the chamber, and it requires caseless ammunition." compset="Equipment">
+    <fieldval field="grCost" value="1000"/>
+    <fieldval field="grAvail" value="10"/>
+    <usesource source="RHubEFiring" parent="UserParent" name="RunnerHub Electronic Firing"/>
+    <tag group="ModCat" tag="Firearm"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="MountUses" tag="Barrel"/>
+    <tag group="MountUses" tag="Internal"/>
+    <eval phase="Setup" priority="4000" index="2"><![CDATA[doneif (activated = 0)
+doneif (container.ishero <> 0)
+
+perform parent.assign[ForceCased.Caseless]]]></eval>
+    <eval phase="Effects" priority="5000"><![CDATA[
+      ~only apply this if we're activated
+      doneif (activated = 0)
+
+      ~Add 1 point of recoil comensation to our weapon
+      perform container.parent.field[wpRecComp].modify[+,1,""]]]></eval>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqLAGRHSilencer" name="Silencer/Suppressor(RunnerHub)" description="This barrel-mounted accessory reduces the sound and flash of a weapon&apos;s discharge. It cannot be used with revolvers. It applies a -4 dice pool modifier on all Perception Tests to notice the weapon&apos;s use or locate the weapon&apos;s firer. Attaching or removing a silencer takes a Complex Action.\n\nNote: While herolab will now let you add a silencer to a revolver, this is still illegal and you should Not Do This." compset="Equipment">
+    <fieldval field="grCost" value="500"/>
+    <fieldval field="grAvail" value="9"/>
+    <fieldval field="dvWireDesc" value="The silencer/suppressor features a Rating 2 microphone with Rating 2 Select Sound Filter and simple software that alerts you via AR if your silencer detects the sound of someone nearby reacting to the sound of the silenced weapon."/>
+    <usesource source="RH_Silencers" parent="UserParent" name="RunnerHub Silencers"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="AccessCat" tag="Ranged" name="Ranged Weapon" abbrev="Ranged Weapon"/>
+    <tag group="EquipCat" tag="Accessory" name="Weapon Accessories &amp; Mods" abbrev="Weapon Accessories &amp; Mods"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="MountUses" tag="Barrel" name="Barrel" abbrev="Barrel"/>
+    <prereq message="The PSK-3 requires a custom silencer">
+      <validate><![CDATA[
+        validif (ishero <> 0)
+        validif (parent.tagis[AccAllow.PSK3] = 0)]]></validate>
+      </prereq>
+    </thing>
+  </document>
