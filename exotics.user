@@ -1,67 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document signature="Hero Lab Data">
-  <thing id="skaLAGLasers" name="Lasers" description="Laser Weapons include the Ares Archon Heavy MP Laser, Ares Armatus, Ares Lancer MP Laser, Ares Redline, and the Underbarrel Laser." compset="SkillAct" summary="Laser Weapons include the Ares Archon Heavy MP Laser, Ares Armatus, Ares Lancer MP Laser, Ares Redline, and the Underbarrel Laser.">
-    <usesource source="RH_Exotics"/>
-    <tag group="SkillHelp" tag="NoSpecial"/>
-    <tag group="User" tag="Unique"/>
-    <tag group="SkillCat" tag="Combat"/>
-    <tag group="AttrPool" tag="attrAgi"/>
-    <tag group="SkillHelp" tag="CanDefault"/>
-    <child entity="skSpecial"></child>
-    </thing>
-  <thing id="skaLAGBiosprays" name="Bio-sprays" description="BioSprays include Chemical Glands(Exhalation), Chemical Glands(Spitter), Corrosive Spit, Natural Venoms(Exhalation), Natural Venoms(Spit), and Spidersilk Glands" compset="SkillAct" summary="BioSprays include Chemical Glands(Exhalation), Chemical Glands(Spitter), Corrosive Spit, Natural Venoms(Exhalation), Natural Venoms(Spit), and Spidersilk Glands">
-    <usesource source="RH_Exotics" parent="UserParent" name="RunnerHub Exotic Weapons"/>
-    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
-    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
-    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
-    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
-    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
-    <child entity="skSpecial"></child>
-    </thing>
-  <thing id="skaLAGDEW" name="Directed Energy Weapons" description="Directed Energy Weapons include the Ares Screech Sonic Rifle, the Fichetti Pain Inducer, and the Narcoject PEP." compset="SkillAct" summary="Directed Energy Weapons include the Ares Screech Sonic Rifle, the Fichetti Pain Inducer, and the Narcoject PEP.">
-    <usesource source="RH_Exotics"/>
-    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
-    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
-    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
-    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
-    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
-    <child entity="skSpecial"></child>
-    </thing>
-  <thing id="skaLAGChainsaws" name="Chainsaws" description="Chainsaws include the Ash Arms Combat Chainsaw, the Ash Arms Monofilament Chainsaw, the Non-Combat Chainsaws, and Underbarrel Chainsaws." compset="SkillAct" summary="Chainsaws include the Ash Arms Combat Chainsaw, the Ash Arms Monofilament Chainsaw, the Non-Combat Chainsaws, and Underbarrel Chainsaws.">
-    <usesource source="RH_Exotics"/>
-    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
-    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
-    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
-    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
-    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
-    <child entity="skSpecial"></child>
-    </thing>
-  <thing id="skaLAGFlamers" name="Flame Weapons" description="Flame Weapons include Flame Bracers, the Halloweener Barbeque Lighter, the Shiawase Arms Incinerator, the Shiawase Blazer, and Underbarrel Flamethrowers." compset="SkillAct" summary="Flame Weapons include Flame Bracers, the Halloweener Barbeque Lighter, the Shiawase Arms Incinerator, the Shiawase Blazer, and Underbarrel Flamethrowers.">
-    <usesource source="RH_Exotics"/>
-    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
-    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
-    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
-    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
-    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
-    <child entity="skSpecial"></child>
-    </thing>
-  <thing id="skaLAGMonofilamen" name="Monofilament Weapons" description="Monofilament Weapons include Monofilament Bolas, Monofilament Garrotes, Monofilament Whips, Monofilament Yo-Yos, and Monowire." compset="SkillAct" summary="Monofilament Weapons include Monofilament Bolas, Monofilament Garrotes, Monofilament Whips, Monofilament Yo-Yos, and Monowire.">
-    <usesource source="RH_Exotics"/>
-    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
-    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
-    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
-    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
-    <tag group="SkillHelp" tag="NoSpecial" name="Skill Specialties are not Allowed" abbrev="Skill Specialties are not Allowed"/>
-    <child entity="skSpecial"></child>
-    </thing>
-  <thing id="skaLAGSprayGuns" name="Spray Guns" description="Spray Guns include the Ares S-III Super Squirt, Atomizers, Modified Spray Pens, the Narcoject Gas Gun, the Narcoject Trackstopper, and Pepper Punch Pens." compset="SkillAct" summary="Spray Guns include the Ares S-III Super Squirt, Atomizers, Modified Spray Pens, the Narcoject Gas Gun, the Narcoject Trackstopper, and Pepper Punch Pens.">
-    <usesource source="RH_Exotics"/>
-    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
-    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
-    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
-    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
-    <child entity="skSpecial"></child>
-    </thing>
   <thing id="eqLAGEfire2" name="Electronic Firing(RunnerHub)" description="With this modification, most of the weapon&apos;s moving parts are removed so that it can fire electronically, meaning that an electrical signal detonates the bullet&apos;s propellant. This provides 1 point of recoil compensation and a -1 dice pool modifier to sound-based Perception Tests when trying to locate where the weapon is being fired from. Electronic firing is usually combined with trigger removal (see p. 182) to further reduce the number of moving parts, but this is not mandatory. The weapon still includes a loading mechanism that moves the bullet into the chamber, and it requires caseless ammunition." compset="Equipment">
     <fieldval field="grCost" value="1000"/>
     <fieldval field="grAvail" value="10"/>
@@ -98,5 +36,457 @@ perform parent.assign[ForceCased.Caseless]]]></eval>
         validif (ishero <> 0)
         validif (parent.tagis[AccAllow.PSK3] = 0)]]></validate>
       </prereq>
+    </thing>
+  <thing id="wpLAG1GunSpray" name="Spray Guns" compset="Ranged">
+    <comment>This is a helper item that sets up the Lasers Weapons Skill</comment>
+    <usesource source="RHExotics"/>
+    <tag group="WpCategory" tag="SpecialWep" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
+    <tag group="Helper" tag="Helper" name="Helper" abbrev="Helper"/>
+    </thing>
+  <thing id="wpLAGSquirt" name="Ares S-III Super Squirt" description="This popular non-lethal weapon fires DMSO gel packs. The dimethyl sulfoxide forces the skin to absorb the chemicals the operator wishes to deliver. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target&apos;s bloodstream as a Contact vector toxin ({b}Toxins, Drugs, and BTLs{/b}, p. 408). The Super Squirt uses Light Pistol ranges and can accept top- and underbarrel-mounted accessories." compset="Ranged" replaces="wpAresSIII">
+    <fieldval field="grCost" value="950"/>
+    <fieldval field="grAvail" value="7"/>
+    <fieldval field="dpLimit" value="3"/>
+    <fieldval field="wpAmmoCap" value="20"/>
+    <usesource source="RHExotics"/>
+    <tag group="Mount" tag="Top" name="Top" abbrev="Top"/>
+    <tag group="Mount" tag="Under" name="Underbarrel" abbrev="Under"/>
+    <tag group="OverDamage" tag="Chemical" name="Damage Derived From Toxin/Chemical" abbrev="By Chem."/>
+    <tag group="RangeCat" tag="rcLPistol" name="Light Pistol" abbrev="Light Pistol"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="SpecialWep" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
+    <tag group="AmmoType" tag="DMSO" name="DMSO Gel" abbrev="DMSO Gel"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="ExCountAs" tag="wpLAGGunSpray"/>
+    <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAG1BioSpray" name="BioSpray" compset="Ranged" replaces="wpBioSpray">
+    <comment>This is a helper item that sets up the Lasers Weapons Skill</comment>
+    <usesource source="RHExotics"/>
+    <tag group="WpCategory" tag="SpecialWep" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
+    <tag group="Helper" tag="Helper" name="Helper" abbrev="Helper"/>
+    <tag group="Helper" tag="AugOnly"/>
+    <tag group="Augment" tag="Bio"/>
+    </thing>
+  <thing id="wpLAG1_DEW" name="Directed Energy Weapons" compset="Ranged">
+    <comment>This is a helper item that sets up the Lasers Weapons Skill</comment>
+    <usesource source="RHExotics"/>
+    <tag group="WpCategory" tag="SpecialWep" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
+    <tag group="Helper" tag="Helper" name="Helper" abbrev="Helper"/>
+    </thing>
+  <thing id="wpLAG1Mono" name="MonoFilament Weapons" compset="Ranged">
+    <comment>This is a helper item that sets up the Lasers Weapons Skill</comment>
+    <usesource source="RHExotics"/>
+    <tag group="WpCategory" tag="SpecialWep" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
+    <tag group="Helper" tag="Helper" name="Helper" abbrev="Helper"/>
+    </thing>
+  <thing id="wpLAGMWhip" name="Monofilament Whip" description="Iconic. Terrifying. Deadly. Few weapons on the street are more feared. This monofilament line can cut through bone and armor like hot butter. The line extends out to two meters, and retracts into the weapon&apos;s handle when not in use. The whip action, the weighted tip, and the deadly thread of the monofilament line itself make this weapon a potential danger to it&apos;s wielder. On a glitch, you catch the weighted tip on something nearby and need to disentangle it before you make another proper attack with it. On a critical glitch, you hit yourself with the whip and take its base damage (resisted normally). A monofilament whip requires the Exotic Melee Weapon (Monofilament Whip) skill to use." compset="Melee" replaces="wpMonoWhip">
+    <fieldval field="grCost" value="10000"/>
+    <fieldval field="grAvail" value="12"/>
+    <fieldval field="dvWireDesc" value="The whip can be readied with a Free Action, rather than a Simple Action, and the whip&apos;s built-in safety system retracts automatically instead of getting you entangled on a glitch. The Accuracy is also increased by 2."/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpDamage" value="12"/>
+    <fieldval field="wpAP" value="-8"/>
+    <fieldval field="wpReach" value="2"/>
+    <usesource source="RHExotics"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="WpCategory" tag="Exotic" name="Exotic Melee Weapons" abbrev="Exotic Melee Weapon"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <tag group="ExCountAs" tag="wpLAG1Mono"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <eval phase="Final" priority="5000"><![CDATA[
+      doneif (activated = 0)
+      doneif (tagis[Equipment.WirelessOn] = 0)
+
+      perform field[dpLimit].modify[+,2,"Wireless Active"]]]>
+      <before name="Calc Weapon DicePool"/>
+      </eval>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpLAGFichPain" name="Fichetti Pain Inducer" description="For a non-lethal weapon, the Fichetti Pain Inducer is not very humane. It makes someone feel like they are in a microwave, roasting from the inside out. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target&apos;s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. The attacker can continue to hold her beam on a target with a Complex Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot get out of the beam, he is incapacitated with pain, suffering a dice pool modifier equal to the modified Power on all tests for as long as the beam is trained on him.{br}{br}The Pain Inducer uses SMG ranges and can take top and underbarrel accessories. It has ten charges; when attached to a power point, it reloads one charge every ten seconds." compset="Ranged" replaces="wpFichPain">
+    <fieldval field="grCost" value="5000"/>
+    <fieldval field="grAvail" value="11"/>
+    <fieldval field="dvWireDesc" value="The Pain Inducer recharges by induction at a rate of 1 charge per hour."/>
+    <fieldval field="dpLimit" value="3"/>
+    <usesource source="RHExotics"/>
+    <tag group="Mount" tag="Under" name="Underbarrel" abbrev="Under"/>
+    <tag group="OverDamage" tag="Chemical" name="Damage Derived From Toxin/Chemical" abbrev="By Chem."/>
+    <tag group="RangeCat" tag="rcSMG" name="SMG" abbrev="SMG"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="SpecialWep" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Fichetti" name="Fichetti" abbrev="Fichetti"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ExCountAs" tag="wpLAG1_DEW"/>
+    <tag group="Mount" tag="Top" name="Top" abbrev="Top"/>
+    <child entity="grCustRang">
+      <bootstrap thing="amBattery">
+        <assignval field="trkMax" value="10"/>
+        </bootstrap>
+      </child>
+    </thing>
+  <thing id="wpLAGBarbecue" name="Halloweener Barbecue Lighter" description="Available on the streets on Seattle, and with its simple blueprint widely disseminated via the Matrix, the Halloweener Barbecue Lighter (one of various names it is known by throughout various sprawls) is a terror-inducing weapon—as much for its user as its intended target. The simplistic flamethrower is a far cry from being safe for its operator. It tends to find its way into the hands of the truly sadistic pyromaniacs, or truly desperate people with no good options.\n\nThe weapon includes a bulky backpack fuel tank. Putting on the backpack takes 2 Combat Turns. Unhooking the straps and slipping out of it takes a Complex Action. Readying the weapon requires a Complex Action. \nSee p. 49, Run &amp; Gun, for full rules for using flamethrowers.\n\nSpecial: The Halloweener Barbecue Lighter is a highly unstable weapon. On any glitch, the handler suffers a hit with the base damage of the weapon. On a critical glitch, the fuel tank explodes, causing (6 + Ammo remaining)P damage to the handler. So, for example, a tank with 8 rounds left would cause 6 + 8 = 14P damage to the wielder." compset="Ranged">
+    <fieldval field="grAvail" value="8"/>
+    <fieldval field="wpDamage" value="6"/>
+    <fieldval field="wpAP" value="-6"/>
+    <fieldval field="wpAmmoCap" value="12"/>
+    <fieldval field="grCost" value="1200"/>
+    <fieldval field="dpLimit" value="4"/>
+    <usesource source="RHExotics"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="RangeCat" tag="rcTaser"/>
+    <tag group="Armory" tag="Firearm"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <tag group="ModCat" tag="UnderFlame"/>
+    <tag group="Helper" tag="Shadow"/>
+    <tag group="Mode" tag="SemiAuto"/>
+    <tag group="Mode" tag="Burst3"/>
+    <tag group="Mode" tag="FullAuto10"/>
+    <tag group="WpCategory" tag="Flamethrow"/>
+    <tag group="AmmoType" tag="FlameFuel"/>
+    <tag group="WpDamSpec" tag="Fire"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGFlameBracer" name="Flame Bracer" description="This gizmo was invented by a mage who favored the Shape Fire spell but could never find a flame when he needed it. On a critical glitch you hit yourself with the flame. This weapon uses the Exotic Ranged Weapon skill." compset="Ranged" replaces="wpFlameBra">
+    <fieldval field="grAvail" value="8"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="grCost" value="775"/>
+    <fieldval field="wpDamage" value="6"/>
+    <fieldval field="wpAP" value="-6"/>
+    <fieldval field="wpAmmoCap" value="2"/>
+    <usesource source="RHExotics"/>
+    <tag group="WpCategory" tag="Flamethrow"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="WpDamSpec" tag="Fire"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="Armory" tag="Projectile"/>
+    <tag group="AmmoType" tag="FlameFuel"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGMYoYo" name="Monofilament Yo-Yo" description="Laugh all you want, but the yo-yo was originally designed as a weapon for hunting, and while we think of them as toys for children, they can still be used for their original purpose as well as performing. A hardened yo-yo is simply constructed out of a tougher material, such as hardwood or metal. A bladed yo-yo is exactly what you think, while a monofilament yo-yo is safer to use than a monofilament whip but not by much. Each counts as a Professional Grade instrument for performing tricks.\n\nOn a glitch, you catch the weighted tip on something nearby and need to disentangle it before you make another proper attack with it. On a critical glitch, you hit yourself with the yo-yo and take its base damage (resisted normally). A monofilament yo-yo requires the Exotic Melee Weapon (Monofilament Whip) skill to use." compset="Melee">
+    <fieldval field="grCost" value="12000"/>
+    <fieldval field="grAvail" value="12"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-8"/>
+    <fieldval field="wpReach" value="1"/>
+    <usesource source="RHExotics"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="ExCountAs" tag="wpLAG1Mono" name="MonoFilament Weapons" abbrev="MonoFilament Weapons"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <eval phase="Final" priority="5000"><![CDATA[
+      doneif (activated = 0)
+      doneif (tagis[Equipment.WirelessOn] = 0)
+
+      perform field[dpLimit].modify[+,2,"Wireless Active"]]]>
+      <before name="Calc Weapon DicePool"/>
+      </eval>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpLAGMGarrote" name="Ares &quot;Queen of Hearts&quot; Monofilament Garrote" description="Leave it to Ares to make something deadly even deadlier. The Queen of Hearts is the nickname for Ares&apos; monofilament garrote that will often take a head right off well before the target suffocates, though I&apos;m certain that was part of the intended design. Other megacorps have copied the design, but Ares is by far the biggest name out there.\n\nUsing a garrote requires and initial successful attack test to get the weapon in place similar to subduing combat. The attacker uses their Exotic Melee Weapon (Garrote) skill to initiate the subduing. The attack must use the Called Shot Location modifier and needs at least 1 net hit to succeed. After the weapon is in place, the attacking character can choose to do the damage of the weapon during their next Action Phase along with improving their hold with another Attack Test or knocking the opponent to the ground.\n\nBreaking free of the garrote requires an Agility + Unarmed Combat [Physical] Test with a threshold of the attacker&apos;s net hits on all attacks or a successful Knock Out of Hands called shot or similar attack that breaks the attacker&apos;s grip." compset="Melee" replaces="wpMonoGarr">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="grCost" value="2000"/>
+    <fieldval field="grAvail" value="18"/>
+    <fieldval field="wpDamage" value="6"/>
+    <fieldval field="wpAP" value="-8"/>
+    <usesource source="RHExotics"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="ExCountAs" tag="wpLAG1Mono"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="Armory" tag="Melee"/>
+    <tag group="Manufac" tag="Ares"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpLAGMBolas" name="Nemesis Arms Surchin Monofilament Bolas" compset="Ranged" replaces="wpMonoBola">
+    <fieldval field="wpSpecial" value="A monofilament bola requires the target to make an immediate Damage Resistance Test against 12Pv-8 along with  an immediate Agility + Gymnastics [Physical] Test with a threshold of the attacker&apos;s net hits; if they fail, they fall prone."/>
+    <fieldval field="grCost" value="4000"/>
+    <fieldval field="wpDamage" value="3"/>
+    <fieldval field="wpAP" value="4"/>
+    <fieldval field="grAvail" value="18"/>
+    <usesource source="RHubEFiring"/>
+    <tag group="UsesLimit" tag="ilPhysical"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="WpDamType" tag="Stun"/>
+    <tag group="ExCountAs" tag="wpLAG1Mono"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="Armory" tag="Thrown"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <tag group="RangeCat" tag="rcShuriken"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Manufac" tag="Nemesis"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGAtomizer" name="Atomizer" description="Developed during the early resurgence of alchemy as a practice, the atomizer is more a delivery device than it is an actual tool. The key to this device lies in its ability to take solid or liquid compounds and break them down into an aerosol spray without any loss in power or effect. This enables both healing and poison effects that would normally be command triggered to be created as contact triggers while retaining efficacy. The nature of the atomizer itself keeps contact with the device from activating the  contact trigger. This enables the atomizer to spray out its payload which will then activate upon contact. Rumors exist about atomizers that may hold more than one compound “cartridge” at a time, though none can verify the truth of them. \n\nEffect: One  compound may be converted from a solid or liquid into an aerosol when inserted into the atomizer. Compounds made with a contact trigger are not enacted until they contact a substance after being fired from the atomizer. Atomizers can be used to make a ranged attack with a maximum range of three meters." compset="Ranged">
+    <fieldval field="wpShort" value="3"/>
+    <fieldval field="grCost" value="500"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="4"/>
+    <usesource source="RHExotics"/>
+    <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="Armory" tag="Projectile"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="AmmoType" tag="AtomizAmmo"/>
+    <tag group="OverDamage" tag="Chemical"/>
+    <tag group="MountNo" tag="Barrel"/>
+    <tag group="MountNo" tag="Internal"/>
+    <tag group="MountNo" tag="Side"/>
+    <tag group="MountNo" tag="Stock"/>
+    <tag group="MountNo" tag="Top"/>
+    <tag group="MountNo" tag="Under"/>
+    <tag group="ReloadType" tag="BreakAct"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="amLAGAtomizerAmmo" name="Atomizer Refill" description="For use with the Atomizer." compset="Ammunition" stacking="merge">
+    <usesource source="RHExotics" parent="UserParent" name="Runner Hub Exotic Weapons"/>
+    <tag group="OverDamage" tag="Chemical" name="Damage Derived From Toxin/Chemical" abbrev="By Chem."/>
+    <tag group="Vector" tag="Contact" name="Contact" abbrev="Contact"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <tag group="Weapon" tag="ToxinAmmo" name="Ammo that needs a toxin loaded" abbrev="Ammo that needs a toxin loaded"/>
+    <tag group="Vector" tag="Inhale"/>
+    <tag group="AmmoType" tag="AtomizAmmo" name="Atomizer Refill"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="wpLAGModSprayPen" name="Modified Spray Pen" description="This pen/digital stylus contains a small pepper punch canister. It is commonly sold to wageslaves who shy away from firearms as a discreet means of self-defense against muggings. It can be re-purposed to hold any inhalation vector toxin or drug. The range of the spray is two meters." compset="Ranged" replaces="wpSprayPen">
+    <fieldval field="dpLimit" value="3"/>
+    <fieldval field="grCost" value="60"/>
+    <fieldval field="wpAmmoCap" value="1"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="wpShort" value="2"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="OverDamage" tag="Chemical"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="AmmoType" tag="SprayPen"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGNarcoGasGun" name="Narcoject Gas Gun" compset="Ranged" replaces="wpNaGasGun">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="grCost" value="1500"/>
+    <fieldval field="wpAmmoCap" value="5"/>
+    <fieldval field="wpAmmoBins" value="2"/>
+    <fieldval field="grAvail" value="8"/>
+    <usesource source="RHExotics"/>
+    <tag group="Manufac" tag="Narcoject"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="Armory" tag="Firearm"/>
+    <tag group="OverDamage" tag="Chemical"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="AmmoType" tag="GasGun"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="RangeCat" tag="rcTaser"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGNarcoTrack" name="Narcoject Trackstopper" description="The Narcoject Trackstopper was adapted from the discontinued Ares Fogger Glop Cannon. When Ares began to divert all non-essential weapons research, development, and production to the Excalibur rifle, the Glop Cannon (which hadn’t been selling all that well) was discontinued. Seeing an opportunity, Narcoject bought the name and the research for a modest sum, which suited both parties at the time.\n\nThe Trackstopper has the look of a firehose crossed with a sub-machine gun. It connects to a pack worn on the user’s back and fires a stream of liquid foam at the target. Unlike the original formulation of Freeze Foam, Narcoject Foam won’t help you build a bridge, but it will harden in 1 Combat Round. For every net hit the user gets to hit the target, the target suffers a –1 penalty to their Agility. If the target’s Agility reaches 0, they are unable to move or take any actions that require use of their limbs. Once hardened, the foam has a Structure Rating of 4 and an Armor Rating of 6. Narcoject Foam is specially formulated at the microscopic level to allow encased victims to breathe. Narcoject Foam dissolves completely in one hour, or immediately with the application of Narcoject-brand solvent (free with purchase of Narcoject Foam refills).\n\nNote: This weapon uses Light Pistol ranges. Foam refills cost 500¥ per 6 charges and have an Availability of 15R." compset="Ranged" replaces="wpNaTrackstopper">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="grCost" value="8500"/>
+    <fieldval field="wpAmmoCap" value="6"/>
+    <fieldval field="grAvail" value="15"/>
+    <usesource source="RHExotics"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
+    <tag group="Manufac" tag="Narcoject"/>
+    <tag group="OverDamage" tag="AgiPen"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="AmmoType" tag="NarcoFoan"/>
+    <tag group="Armory" tag="Firearm"/>
+    <tag group="ReloadType" tag="Magazine"/>
+    <tag group="RangeCat" tag="rcLPistol"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGPepperPen" name="Pepper Punch Pen" description="This pen/digital stylus contains a small pepper punch canister. It is commonly sold to wageslaves who shy away from firearms as a discreet means of self-defense against muggings. It can be re-purposed to hold any inhalation vector toxin or drug. The range of the spray is two meters." compset="Ranged" replaces="wpPepperPu">
+    <fieldval field="dpLimit" value="3"/>
+    <fieldval field="grCost" value="45"/>
+    <fieldval field="wpAmmoCap" value="1"/>
+    <fieldval field="grAvail" value="3"/>
+    <fieldval field="wpShort" value="2"/>
+    <usesource source="RHExotics"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="AmmoType" tag="PepperPen"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="OverDamage" tag="Chemical"/>
+    <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="Mode" tag="Single"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGPEPGun" name="Narcoject PEP" description="The Narcoject PEP is an interesting device. The PEP, or Pulsed Energy Projectile, could easily have been turned into a killing machine, and a rather brutal one at that. Instead, the PEP fires short, intense laser pulses. These pulses vaporize the surface of whatever they hit, creating plasma. This plasma then absorbs all other energy the PEP sends to it, detonating with a flash, bang, and pulse. The PEP is designed to prevent outright killing of targets, as the stun effects caused by the pulse are quite effective.\n\nNote: This weapon uses Heavy Pistol ranges. It can only accept top- and underbarrel accessories. The PEP is powered by peak-discharge battery packs (p. 52, {i}Run &amp; Gun{/i}) and uses two power units per shot. It typically takes 2 units with ten charges apiece." compset="Ranged" replaces="wpNaPEP">
+    <fieldval field="grCost" value="7500"/>
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpDamage" value="10"/>
+    <fieldval field="wpAmmoCap" value="10"/>
+    <fieldval field="wpAmmoBins" value="2"/>
+    <fieldval field="wpAmmoUse" value="2"/>
+    <fieldval field="grAvail" value="12"/>
+    <fieldval field="wpSpecial" value="If the target is wearing armor that is capable of supporting a Chemical Seal, the attack has no AP. If the target is wearing clothing or armor with gaps, the attack’s AP is –5."/>
+    <usesource source="RHExotics"/>
+    <tag group="WpDamType" tag="Stun"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="Armory" tag="Firearm"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="AmmoType" tag="Battery"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="RangeCat" tag="rcHPistol"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="ExCountAs" tag="wpLAG1_DEW"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="Manufac" tag="Narcoject"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGScreech" name="Ares Screech Sonic Rifle" description="This is a nasty little oddball of a weapon. Though it&apos;s called the Screech and its classified as a sonic rifle, anyone with this thing pointed at them will rarely hear a thing other then their own retching as they puke up their latest meal. This devious invention uses focused sound waves to disorient the target while not causing any real damage. Perfect for crowd control as long as the users are prepped with gas masks, since the reek of soybase vomit will fill the air this sucker is fired.\n\nThe sonic rifle can fire with variable beam settings. It uses the same rules as shotguns (p. 180, {i}SR5{/i}) for determining the number of targets affected and the DV modifier, as well as ranges. The Exotic Ranged Weapon (Sonic Rifle) skill is used to fire this weapon.\n\nTargets hit by a beam suffer the effects of disorientation and nausea (p. 409, {i}SR5{/i}; use Damage Resistance Test in place of Toxin Resistance Test). The rifle uses peak discharge battery packs, with each shot consuming 1 power unit." compset="Ranged" replaces="wpAresScre">
+    <fieldval field="wpSpecial" value="The Damage Resistance Test uses Willpower instead of Body and ignores all standard armor. Damper earware (p. 454, {i}SR5{/i}) provides +2 bonus dice to the resistance test. A Hush or Silence spell reduces the DV by -1 per hit on the Spellcasting Test. Targets hit by a beam suffer the effects of disorientation and nausea (see p. 409, {i}SR5{/i})."/>
+    <fieldval field="grCost" value="8000"/>
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpDamage" value="7"/>
+    <fieldval field="grAvail" value="15"/>
+    <usesource source="RHExotics"/>
+    <tag group="Armory" tag="Firearm"/>
+    <tag group="Weapon" tag="HasSpread"/>
+    <tag group="Manufac" tag="Ares"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="WpDamType" tag="Stun"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="AmmoType" tag="Battery"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="ExCountAs" tag="wpLAG1_DEW"/>
+    <tag group="RangeCat" tag="rcShotSlug"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGSpiderSilk" name="Spidersilk Gland" description="Spidersilk is renowned for its strength in relation to its weight, so engineers have long looked for ways to harness its abilities. By implanting glands that shoot a reasonable facsimile of spidersilk from the human body, people get the opportunity to trip up opponents, or even rappel down a building. Don&apos;t try swinging from it, though - this is not a comic book. Glands are often implanted in people&apos;s wrists; those ones hold two doses, with each dose being about twenty meters long. Glands implanted in the abdomen or lower back can hold five doses. When the silk shoots out, the user can choose to keep it stuck to the gland, or they can snip it off. Aiming spidersilk at a target requires an Exotic Ranged Weapon (Spidersilk) attack. A successful hit does no damage, but gives the target -2 on their Physical limit. Called shots incur the normal -4 penalty, but if successful they can hit the feet, tripping the target as long as the attack generated any net hits, or temporarily disabling their hands if that&apos;s what was hit. The target will need 5 Combat Turns to disentangle themselves, unless they have a special enzyme, available for 25 nuyen a dose, that can dissolve it in 2 Combat Turns.\n\nWhen used in rappelling situations, add +3 dice to the required Free-fall + Body test." compset="Ranged" replaces="auSpdrsilk">
+    <fieldval field="grCost" value="35000"/>
+    <fieldval field="wpShort" value="20"/>
+    <fieldval field="grAvail" value="10"/>
+    <fieldval field="grEssence" value=".3"/>
+    <arrayval field="usrArray" index="0" value="Wrist"/>
+    <arrayval field="usrArray" index="1" value="Abdomen"/>
+    <arrayval field="usrArray" index="2" value="Lower Back"/>
+    <usesource source="RHExotics"/>
+    <tag group="Equipment" tag="Natural"/>
+    <tag group="Weapon" tag="NoEquip"/>
+    <tag group="OverDamage" tag="dmTrapSilk"/>
+    <tag group="UsesLimit" tag="ilPhysical"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="Augment" tag="Bio"/>
+    <tag group="AugCat" tag="Bioware"/>
+    <tag group="ExCountAs" tag="wpLAG1BioSpray"/>
+    <tag group="Show" tag="SpecialTab"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Armory" tag="Projectile"/>
+    <tag group="WeaponNote" tag="Tool"/>
+    <tag group="Helper" tag="AugOnly"/>
+    <bootstrap thing="trkSpdrslk"></bootstrap>
+    <eval phase="Effects" priority="10000"><![CDATA[doneif (activated = 0)
+
+#situational[hero.childfound[skaFreeFal],"+3 dice when used in rappelling situations",field[thingname].text]
+
+if (compare(field[usrSelect].text,"Wrist") = 0) then
+  field[Value].value = 2
+else
+  field[Value].value = 5
+  endif]]></eval>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGSpit" name="Spit" description="An unusual choice as it always exposes the user to the chemical, spitting involves a sphincter added to the mouth that can be opened by contraction of facial muscles or continuous tongue placement, unlocking a single dose of the substance for use. Metahuman spit with a concentrated chemical core can be launched up to 5 meters. A user may only have one implant, and they use the Exotic Ranged Weapon (Spitter) skill to employ it." compset="Ranged" replaces="auSpit">
+    <fieldval field="grCost" value="6000"/>
+    <fieldval field="grAvail" value="12"/>
+    <fieldval field="grEssence" value=".1"/>
+    <fieldval field="wpShort" value="5"/>
+    <usesource source="RHExotics"/>
+    <tag group="Armory" tag="Projectile"/>
+    <tag group="Weapon" tag="NoEquip"/>
+    <tag group="Equipment" tag="Natural"/>
+    <tag group="OverDamage" tag="Chemical"/>
+    <tag group="Augment" tag="Bio"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="Equipment" tag="HideActive"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="Helper" tag="AugOnly"/>
+    <tag group="Helper" tag="Shadow"/>
+    <tag group="ExCountAs" tag="wpLAG1BioSpray"/>
+    <tag group="WeaponNote" tag="NoRecoil"/>
+    <tag group="ModCat" tag="auChemGlan"/>
+    <tag group="UsesLimit" tag="ilPhysical"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <exprreq message="Chemical Gland already has a delivery method.">parent.tagis[ModInstall.auExhaSpra] + parent.tagis[ModInstall.auInteRele] + parent.tagis[ModInstall.auGradRele] + parent.tagis[ModInstall.auWeapRese] = 0</exprreq>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGSprayer" name="Sprayer" description="Useless without a chemical gland to attach it to, the sprayer is a tubular sphincter lined with powerful muscles, allowing the user to spray a tight jet of liquid. This results in a weapon delivery system not unlike a skunk, though the chemical used can generate quite a range of results. Thanks to the powerful muscle contraction, this jet can strike a target as far away as five meters, but it uses two doses of chemicals in the process.\n\nThe Sprayer uses the Exotic Ranged Weapons (Bio-Sprayer) skill." compset="Ranged" replaces="auSprayer">
+    <fieldval field="grCost" value="4000"/>
+    <fieldval field="grAvail" value="8"/>
+    <fieldval field="grEssence" value=".25"/>
+    <fieldval field="wpShort" value="5"/>
+    <usesource source="RHExotics"/>
+    <tag group="Weapon" tag="NoEquip"/>
+    <tag group="UsesLimit" tag="ilPhysical"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="OverDamage" tag="Chemical"/>
+    <tag group="Equipment" tag="HideActive"/>
+    <tag group="Augment" tag="Bio"/>
+    <tag group="AugCat" tag="BioWeapon"/>
+    <tag group="Armory" tag="Projectile"/>
+    <tag group="Helper" tag="Shadow"/>
+    <tag group="Helper" tag="AugOnly"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="Equipment" tag="Natural"/>
+    <tag group="ExCountAs" tag="wpLAG1BioSpray"/>
+    <exprreq message="Chemical Gland required."><![CDATA[hero.tagis[HasAugment.auChemGlan] <> 0]]></exprreq>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLAGCorrSpit" name="Corrosive Spit" description="The critter&apos;s saliva (or some other chemical it can shoot) is extremely caustic and can be used as a weapon. It&apos;s treated as a standard ranged combat attack, using the critter&apos;s Exotic Ranged Weapon skill + Agility [Physical], with range increments of (Body) meters. The spit causes Acid damage (p. 170), with a DV of (Magic x 2)P and an AP of - (critter&apos;s Magic)." compset="Ranged" replaces="wpCorSpitQ">
+    <fieldval field="wpDamage" value="6"/>
+    <usesource source="RHExotics"/>
+    <tag group="UsesLimit" tag="ilPhysical"/>
+    <tag group="ExCountAs" tag="wpLAG1BioSpray"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Equipment" tag="Natural"/>
+    <tag group="Weapon" tag="NoEquip"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="WpDamSpec" tag="Acid"/>
+    <tag group="Helper" tag="Helper"/>
+    <tag group="Helper" tag="Shadow"/>
+    <tag group="WpCategory" tag="SpecialWep"/>
+    <tag group="QualityCat" tag="Positive" name="Positive Quality" abbrev="Positive Quality"/>
+    <eval phase="Traits" priority="14000">~our range increments are our Body attribute
+      field[wpShort].value += #trait[attrBod]
+      field[wpMedium].value += #trait[attrBod] * 2
+      field[wpLong].value += #trait[attrBod] * 3
+      field[wpExtreme].value += #trait[attrBod] * 4
+      <after name="Calc trtFinal Final"/>
+      </eval>
+    <child entity="grCustRang"></child>
     </thing>
   </document>
