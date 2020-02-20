@@ -61,7 +61,6 @@ endif]]></evalrule>
     <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
     <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
     <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAG1BioSpray" name="BioSpray" compset="Ranged" replaces="wpBioSpray">
@@ -100,7 +99,6 @@ endif]]></evalrule>
     <tag group="ExCountAs" tag="wpLAG1Mono"/>
     <tag group="WpCategory" tag="SpecialWep"/>
     <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
-    <tag group="WpGroup2" tag="Monofilament"/>
     <eval phase="Final" priority="5000"><![CDATA[
       doneif (activated = 0)
       doneif (tagis[Equipment.WirelessOn] = 0)
@@ -127,7 +125,6 @@ endif]]></evalrule>
     <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
     <tag group="ExCountAs" tag="wpLAG1_DEW"/>
     <tag group="Mount" tag="Top" name="Top" abbrev="Top"/>
-    <tag group="WpGroup2" tag="DEW" name="Directed Energy Weapons"/>
     <child entity="grCustRang">
       <bootstrap thing="amBattery">
         <assignval field="trkMax" value="10"/>
@@ -156,7 +153,6 @@ endif]]></evalrule>
     <tag group="WpCategory" tag="Flamethrow"/>
     <tag group="AmmoType" tag="FlameFuel"/>
     <tag group="WpDamSpec" tag="Fire"/>
-    <tag group="WpGroup2" tag="Flamethrower"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGFlameBracer" name="Flame Bracer" description="This gizmo was invented by a mage who favored the Shape Fire spell but could never find a flame when he needed it. On a critical glitch you hit yourself with the flame. This weapon uses the Exotic Ranged Weapon skill." compset="Ranged" replaces="wpFlameBra">
@@ -176,7 +172,6 @@ endif]]></evalrule>
     <tag group="Equipment" tag="FixRating"/>
     <tag group="Restricted" tag="Forbidden"/>
     <tag group="Armory" tag="Firearm"/>
-    <tag group="WpGroup2" tag="Flamethrower" name="Flamethrowers"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGMYoYo" name="Monofilament Yo-Yo" description="Laugh all you want, but the yo-yo was originally designed as a weapon for hunting, and while we think of them as toys for children, they can still be used for their original purpose as well as performing. A hardened yo-yo is simply constructed out of a tougher material, such as hardwood or metal. A bladed yo-yo is exactly what you think, while a monofilament yo-yo is safer to use than a monofilament whip but not by much. Each counts as a Professional Grade instrument for performing tricks.\n\nOn a glitch, you catch the weighted tip on something nearby and need to disentangle it before you make another proper attack with it. On a critical glitch, you hit yourself with the yo-yo and take its base damage (resisted normally). A monofilament yo-yo requires the Exotic Melee Weapon (Monofilament Whip) skill to use." compset="Melee">
@@ -194,7 +189,6 @@ endif]]></evalrule>
     <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
     <tag group="WpCategory" tag="SpecialWep"/>
     <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
-    <tag group="WpGroup2" tag="Monofilament"/>
     <eval phase="Final" priority="5000"><![CDATA[
       doneif (activated = 0)
       doneif (tagis[Equipment.WirelessOn] = 0)
@@ -219,7 +213,6 @@ endif]]></evalrule>
     <tag group="Manufac" tag="Ares"/>
     <tag group="Equipment" tag="FixRating"/>
     <tag group="Restricted" tag="Forbidden"/>
-    <tag group="WpGroup2" tag="Monofilament"/>
     <child entity="grCustWeap"></child>
     </thing>
   <thing id="wpLAGMBolas" name="Nemesis Arms Surchin Monofilament Bolas" compset="Ranged" replaces="wpMonoBola">
@@ -261,7 +254,6 @@ endif]]></evalrule>
     <tag group="ReloadType" tag="BreakAct"/>
     <tag group="WpCategory" tag="SpecialWep"/>
     <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="amLAGAtomizerAmmo" name="Atomizer Refill" description="For use with the Atomizer." compset="Ammunition" stacking="merge">
@@ -289,7 +281,6 @@ endif]]></evalrule>
     <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
     <tag group="Mode" tag="Single"/>
     <tag group="Restricted" tag="Forbidden"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGNarcoGasGun" name="Narcoject Gas Gun" compset="Ranged" replaces="wpNaGasGun">
@@ -311,7 +302,6 @@ endif]]></evalrule>
     <tag group="Helper" tag="NoMission"/>
     <tag group="Equipment" tag="FixRating"/>
     <tag group="RangeCat" tag="rcTaser"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGNarcoTrack" name="Narcoject Trackstopper" description="The Narcoject Trackstopper was adapted from the discontinued Ares Fogger Glop Cannon. When Ares began to divert all non-essential weapons research, development, and production to the Excalibur rifle, the Glop Cannon (which hadn’t been selling all that well) was discontinued. Seeing an opportunity, Narcoject bought the name and the research for a modest sum, which suited both parties at the time.\n\nThe Trackstopper has the look of a firehose crossed with a sub-machine gun. It connects to a pack worn on the user’s back and fires a stream of liquid foam at the target. Unlike the original formulation of Freeze Foam, Narcoject Foam won’t help you build a bridge, but it will harden in 1 Combat Round. For every net hit the user gets to hit the target, the target suffers a –1 penalty to their Agility. If the target’s Agility reaches 0, they are unable to move or take any actions that require use of their limbs. Once hardened, the foam has a Structure Rating of 4 and an Armor Rating of 6. Narcoject Foam is specially formulated at the microscopic level to allow encased victims to breathe. Narcoject Foam dissolves completely in one hour, or immediately with the application of Narcoject-brand solvent (free with purchase of Narcoject Foam refills).\n\nNote: This weapon uses Light Pistol ranges. Foam refills cost 500¥ per 6 charges and have an Availability of 15R." compset="Ranged" replaces="wpNaTrackstopper">
@@ -331,7 +321,6 @@ endif]]></evalrule>
     <tag group="ReloadType" tag="Magazine"/>
     <tag group="RangeCat" tag="rcLPistol"/>
     <tag group="Restricted" tag="Restricted"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGPepperPen" name="Pepper Punch Pen" description="This pen/digital stylus contains a small pepper punch canister. It is commonly sold to wageslaves who shy away from firearms as a discreet means of self-defense against muggings. It can be re-purposed to hold any inhalation vector toxin or drug. The range of the spray is two meters." compset="Ranged" replaces="wpPepperPu">
@@ -348,7 +337,6 @@ endif]]></evalrule>
     <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
     <tag group="ReloadType" tag="Clip"/>
     <tag group="Mode" tag="Single"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGPEPGun" name="Narcoject PEP" description="The Narcoject PEP is an interesting device. The PEP, or Pulsed Energy Projectile, could easily have been turned into a killing machine, and a rather brutal one at that. Instead, the PEP fires short, intense laser pulses. These pulses vaporize the surface of whatever they hit, creating plasma. This plasma then absorbs all other energy the PEP sends to it, detonating with a flash, bang, and pulse. The PEP is designed to prevent outright killing of targets, as the stun effects caused by the pulse are quite effective.\n\nNote: This weapon uses Heavy Pistol ranges. It can only accept top- and underbarrel accessories. The PEP is powered by peak-discharge battery packs (p. 52, {i}Run &amp; Gun{/i}) and uses two power units per shot. It typically takes 2 units with ten charges apiece." compset="Ranged" replaces="wpNaPEP">
@@ -372,7 +360,6 @@ endif]]></evalrule>
     <tag group="ExCountAs" tag="wpLAG1_DEW"/>
     <tag group="WpCategory" tag="SpecialWep"/>
     <tag group="Manufac" tag="Narcoject"/>
-    <tag group="WpGroup2" tag="DEW"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGScreech" name="Ares Screech Sonic Rifle" description="This is a nasty little oddball of a weapon. Though it&apos;s called the Screech and its classified as a sonic rifle, anyone with this thing pointed at them will rarely hear a thing other then their own retching as they puke up their latest meal. This devious invention uses focused sound waves to disorient the target while not causing any real damage. Perfect for crowd control as long as the users are prepped with gas masks, since the reek of soybase vomit will fill the air this sucker is fired.\n\nThe sonic rifle can fire with variable beam settings. It uses the same rules as shotguns (p. 180, {i}SR5{/i}) for determining the number of targets affected and the DV modifier, as well as ranges. The Exotic Ranged Weapon (Sonic Rifle) skill is used to fire this weapon.\n\nTargets hit by a beam suffer the effects of disorientation and nausea (p. 409, {i}SR5{/i}; use Damage Resistance Test in place of Toxin Resistance Test). The rifle uses peak discharge battery packs, with each shot consuming 1 power unit." compset="Ranged" replaces="wpAresScre">
@@ -393,7 +380,6 @@ endif]]></evalrule>
     <tag group="WpCategory" tag="SpecialWep"/>
     <tag group="ExCountAs" tag="wpLAG1_DEW"/>
     <tag group="RangeCat" tag="rcShotSlug"/>
-    <tag group="WpGroup2" tag="DEW" name="Directed Energy Weapons"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGSpiderSilk" name="Spidersilk Gland" description="Spidersilk is renowned for its strength in relation to its weight, so engineers have long looked for ways to harness its abilities. By implanting glands that shoot a reasonable facsimile of spidersilk from the human body, people get the opportunity to trip up opponents, or even rappel down a building. Don&apos;t try swinging from it, though - this is not a comic book. Glands are often implanted in people&apos;s wrists; those ones hold two doses, with each dose being about twenty meters long. Glands implanted in the abdomen or lower back can hold five doses. When the silk shoots out, the user can choose to keep it stuck to the gland, or they can snip it off. Aiming spidersilk at a target requires an Exotic Ranged Weapon (Spidersilk) attack. A successful hit does no damage, but gives the target -2 on their Physical limit. Called shots incur the normal -4 penalty, but if successful they can hit the feet, tripping the target as long as the attack generated any net hits, or temporarily disabling their hands if that&apos;s what was hit. The target will need 5 Combat Turns to disentangle themselves, unless they have a special enzyme, available for 25 nuyen a dose, that can dissolve it in 2 Combat Turns.\n\nWhen used in rappelling situations, add +3 dice to the required Free-fall + Body test." compset="Ranged" replaces="auSpdrsilk">
@@ -418,7 +404,6 @@ endif]]></evalrule>
     <tag group="Armory" tag="Projectile"/>
     <tag group="WeaponNote" tag="Tool"/>
     <tag group="Helper" tag="AugOnly"/>
-    <tag group="WpGroup2" tag="BioSpray"/>
     <bootstrap thing="trkSpdrslk"></bootstrap>
     <eval phase="Effects" priority="10000"><![CDATA[doneif (activated = 0)
 
@@ -452,7 +437,6 @@ else
     <tag group="ModCat" tag="auChemGlan"/>
     <tag group="UsesLimit" tag="ilPhysical"/>
     <tag group="Equipment" tag="FixRating"/>
-    <tag group="WpGroup2" tag="BioSpray"/>
     <exprreq message="Chemical Gland already has a delivery method.">parent.tagis[ModInstall.auExhaSpra] + parent.tagis[ModInstall.auInteRele] + parent.tagis[ModInstall.auGradRele] + parent.tagis[ModInstall.auWeapRese] = 0</exprreq>
     <child entity="grCustRang"></child>
     </thing>
@@ -475,7 +459,6 @@ else
     <tag group="WpCategory" tag="SpecialWep"/>
     <tag group="Equipment" tag="Natural"/>
     <tag group="ExCountAs" tag="wpLAG1BioSpray"/>
-    <tag group="WpGroup2" tag="BioSpray"/>
     <exprreq message="Chemical Gland required."><![CDATA[hero.tagis[HasAugment.auChemGlan] <> 0]]></exprreq>
     <child entity="grCustRang"></child>
     </thing>
@@ -494,7 +477,6 @@ else
     <tag group="Helper" tag="Shadow"/>
     <tag group="WpCategory" tag="SpecialWep"/>
     <tag group="QualityCat" tag="Positive" name="Positive Quality" abbrev="Positive Quality"/>
-    <tag group="WpGroup2" tag="BioSpray"/>
     <eval phase="Traits" priority="14000">~our range increments are our Body attribute
       field[wpShort].value += #trait[attrBod]
       field[wpMedium].value += #trait[attrBod] * 2
@@ -832,7 +814,7 @@ endif]]></eval>
     <tag group="WpCategory" tag="GrappleGuns"/>
     <tag group="RangeCat" tag="rcHvyXBow" name="Heavy Crossbow" abbrev="Heavy Crossbow"/>
     <tag group="ReloadType" tag="MuzzLoad" name="Muzzle-Loading" abbrev="(ml)"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <eval phase="Final" priority="20001"><![CDATA[if (this.hero.tagcount[Specialty.spLAGGrapple] = 0) then
   foreach pick in hero from WeaponBase where "WpCategory.GrappleGuns"
     perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
@@ -864,7 +846,7 @@ endif]]></eval>
     <tag group="ModCat" tag="Bodyware" name="Bodyware" abbrev="Bodyware"/>
     <tag group="WpCategory" tag="GrappleGuns"/>
     <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <eval phase="Final" priority="20001"><![CDATA[if (this.hero.tagcount[Specialty.spLAGGrapple] = 0) then
   foreach pick in hero from WeaponBase where "WpCategory.GrappleGuns"
     perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
@@ -894,7 +876,7 @@ endif]]></eval>
     <tag group="RangeCat" tag="rcHvyXBow"/>
     <tag group="Mode" tag="Single"/>
     <tag group="EquipCat" tag="GrappleGun" name="Grapple Gun" abbrev="Grapple Gun"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <eval phase="Final" priority="20001"><![CDATA[if (this.hero.tagcount[Specialty.spLAGGrapple] = 0) then
   foreach pick in hero from WeaponBase where "WpCategory.GrappleGuns"
     perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
@@ -932,7 +914,7 @@ endif]]></eval>
     <tag group="AccessType" tag="ArmLower" name="Cyber Arm Lower" abbrev="Cyber Arm Lower"/>
     <tag group="AccessType" tag="Hand" name="Cyberhand" abbrev="Cyberhand"/>
     <tag group="EquipCat" tag="Survival" name="Survival Gear" abbrev="Survival Gear"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <eval phase="Final" priority="20001"><![CDATA[if (this.hero.tagcount[Specialty.spLAGGrapple] = 0) then
   foreach pick in hero from WeaponBase where "WpCategory.GrappleGuns"
     perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
@@ -961,7 +943,7 @@ endif]]></eval>
     <tag group="Equipment" tag="FixRating"/>
     <tag group="RangeCat" tag="rcTaser"/>
     <tag group="WpCategory" tag="Blowgun" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <eval phase="Final" priority="20001"><![CDATA[if (this.hero.tagcount[Specialty.spLAGBlowgun] = 0) then
   foreach pick in hero from WeaponBase where "WpCategory.Blowgun"
     perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
@@ -1007,7 +989,7 @@ endif]]></eval>
     <tag group="Mode" tag="Single"/>
     <tag group="Manufac" tag="Shiawase"/>
     <tag group="WpCategory" tag="Netgun"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="wpLAGSARetNetXl" name="SA Retiarius XL Net Gun" description="This weapon comes in two models, the basic and the XL. The basic is designed for metahumans, except for trolls, and smaller critters; while the XL is intended for trolls and other larger creatures.\n\nWhen a target is hit, apply the rules for nets (see p. 25):\nWith a successful attack using rules for a Grazing Hit (p. 173, {i}SR5{/i}), the net lands over an opponent and they are considered to be in subduing combat (p. 195, {i}SR5{/i}). An attacker must move to the target in order to engage in any of the Subduing actions.\n\nTo break free of the net, the subdued character rolls Agility + Unarmed Combat (rather than Strength + Unarmed Combat) or Agility + Escape Artist as a Complex Action, against a threshold equal to the attacker&apos;s net hits.\n\nIf a large net is used against a normal sized target, the target receives a -2 modifier on his Agility, while a large target hit by a normal sized net receives a +2 Agility modifier. Net guns use light pistol ranges and cannot mount any accessories." compset="Ranged" replaces="wpSARetiLr">
@@ -1032,7 +1014,7 @@ endif]]></eval>
     <tag group="ReloadType" tag="BreakAct"/>
     <tag group="Armory" tag="Firearm"/>
     <tag group="RangeCat" tag="rcLPistol"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <child entity="grCustRang"></child>
     </thing>
   <thing id="spLAGNetGuns" name="Net Guns" compset="Special" uniqueness="useronce">
@@ -1066,7 +1048,7 @@ endif]]></eval>
     <tag group="UsesLimit" tag="ilPhysical"/>
     <tag group="AmmoType" tag="Grenade"/>
     <tag group="MountUses" tag="Under" name="Underbarrel" abbrev="Under"/>
-    <tag group="WpGroup2" tag="Archery"/>
+    <tag group="WpGroup" tag="Crossbow"/>
     <eval phase="Final" priority="20001" index="2"><![CDATA[if (this.hero.tagcount[Specialty.spLAGBolaLaunch] = 0) then
   foreach pick in hero from WeaponBase where "WpCategory.BolaLaunch"
     perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
@@ -1919,7 +1901,6 @@ endif]]></eval>
     <tag group="RangeCat" tag="rcTaser"/>
     <tag group="ExCountAs" tag="wpLAG1GunSpray"/>
     <tag group="WpCategory" tag="SpecialWep"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang">
       <bootstrap thing="amHFASLL">
         <autotag group="Weapon" tag="ForceAmmo"/>
@@ -1958,7 +1939,6 @@ endif]]></eval>
     <tag group="RangeCat" tag="rcTaser"/>
     <tag group="OverDamage" tag="HoldFastSp"/>
     <tag group="WpCategory" tag="SpecialWep" name="Special Weapons" abbrev="Exotic Ranged Weapon"/>
-    <tag group="WpGroup2" tag="SprayGun"/>
     <child entity="grCustRang">
       <bootstrap thing="amHFASStan">
         <autotag group="Weapon" tag="ForceAmmo"/>
@@ -2051,7 +2031,7 @@ perform #limit[skaArchery,+,hero.tagcount[HasAugment.auLAGCybOptArch],""]
 field[Value].value = round(hero.tagcount[HasAugment.auLAGCybOptArch] / 2,0,-1)
 
 ~+1 to limit of Archery weapons 
-foreach pick in hero from WeaponBase where "WpGroup.Bow|WpGroup2.Archery|WpGroup.Crossbow"
+foreach pick in hero from WeaponBase where "WpGroup.Bow|WpGroup.Crossbow"
   perform eachpick.field[dpLimit].modify[+,hero.tagcount[HasAugment.auLAGCybOptArch],""]
   perform eachpick.field[DicePool].modify[+,field[Value].value,""]
   nexteach
@@ -2787,7 +2767,7 @@ endif]]></evalrule>
       <tag group="Duplicate" tag="CybOptPerc" name="CybOptPerc" abbrev="CybOptPerc"/>
       </child>
     </thing>
-  <thing id="auLAGNarco" name="Narco" description="This is a set of several minor genetic modifications that have the collective effect of modifying the way your body processes drugs. These genes were discovered through study of survivors of years of heavy substance abuse. While you become more likely to become addicted to drugs, you experience greater effects of drugs and lessened effects when they wear off. Any drug that grants a positive attribute modifier as an effect increases that modifier by +1. Any drug that deals damage when it wears off deals two less damage, and any negative effects that occur when a drug wears off are halved in duration. On Addiction Tests, take a - 2 dice pool modifier when you aren&apos;t addicted to the drug you&apos;re rolling for, and a +2 dice pool modifier when you are addicted to the drug." compset="Augment" replaces="auNarco">
+  <thing id="auLAGNarco" name="Narco" description="This is a set of several minor genetic modifications that have the collective effect of modifying the way your body processes drugs. These genes were discovered through study of survivors of years of heavy substance abuse. While you become more likely to become addicted to drugs, you experience greater effects of drugs and lessened effects when they wear off. Any drug that grants a positive attribute modifier as an effect increases that modifier by +1. Any drug that deals damage when it wears off deals two less damage, and any negative effects that occur when a drug wears off are halved in duration. On Addiction Tests, take a - 2 dice pool modifier when you aren&apos;t addicted to the drug you&apos;re rolling for, and a +2 dice pool modifier when you are addicted to the drug." compset="Augment" replaces="auNarco" uniqueness="useronce">
     <fieldval field="grTreatTim" value="2 weeks"/>
     <fieldval field="grAvail" value="12"/>
     <fieldval field="grEssence" value=".2"/>
@@ -3867,13 +3847,14 @@ endif]]></evalrule>
   <thing id="eqLAGBlight" name="Blight" description="{b}Vector:{/b} Injection, Special\n{b}Speed:{/b} Immediate\n{b}Penetration:{/b} 0\n{b}Power:{/b} 12\n{b}Effect:{/b} Awakened injected with blight lose their connection to the manasphere for [12 – (Body or Magic, whichever is higher) hours, minimum 1 hour]. During this period, the target loses the ability to perform any task associated with magic. Adept powers are turned off, spells cannot be cast, etc.\n\nBlight was discovered by scientists attempting to dispose of manufacturing byproducts from Grey Mana production. The Brothers Grey Auction house holds this “happy” accident much closer to their vests, instead of flooding black markets with \nthis brutal toxin. \nWhen combined with DMSO, blight gains a contact vector. When an Awakened character is exposed to this combination of DMSO and blight, they must make a Drain Resistance test in place of a Toxin Resistance test vs. the power of the toxin. \nDamage taken is treated as Stun Drain. Any spirits exposed to this combination cannot apply immunity to normal weapons to the damage dealt by these weapons.\n\n*Dual-natured creatures injected with this drug are affected similarly in that they also lose connection to the manasphere. They suffer a –4 dice pool penalty to all actions while under the effects of blight. Prolonged exposure results in increasing discomfort. Continued and constant exposure beyond twenty-four hours has been observed to result in horrible mutations followed by death." compset="Toxin" stacking="merge">
     <fieldval field="grCost" value="250"/>
     <fieldval field="grAvail" value="8"/>
-    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <usesource source="RH_BTB" parent="UserParent" name="RunnerHub Better Than Bad"/>
     <tag group="ModCat" tag="Injected" name="Injected Item" abbrev="Injected Item"/>
     <tag group="ModCat" tag="Toxins" name="Toxins" abbrev="Toxins"/>
     <tag group="Restricted" tag="Forbidden"/>
     <tag group="Vector" tag="Inject" name="Injection" abbrev="Injection"/>
     <tag group="EquipCat" tag="Toxin" name="Toxins" abbrev="Toxins"/>
     <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
     <child entity="grCustom"></child>
     </thing>
   <thing id="riLAGCalling" name="Calling [Spirit Type]" description="The Calling ritual is the occult way to call forth spirits that the magician would not normally conjure for their tradition. This is not the same as conjuring, as the spirit owes no services to the magician and may be hostile when/if it arrives. Some thaumaturgists would say that the calling ritual is the fundamental root for the Conjuring skill, before knowledge of the existence of metaplanes. They say that just to pick a fight with other thaumaturgians. Each calling ritual is unique to a spirit type, but not to a specific spirit or classification. So the Calling Fae ritual would be used in calling the Wild Hunt, while Calling Phantoms would be used in calling ghosts. For the actual class of spirit, the magician must create paraphernalia.\n\nParaphernalia is the magical link that will call the said spirit to the ritual area. Paraphernalia are unique kinds of conjuring materials (specific reagents), such as Ouija boards, or saucers of milk that are needed for the ritual. It can also include certain places that the ritual has to be practiced at or specific astronomical events have to occur at the time of the ritual. The exact nature is ultimately up to the gamemaster. Crafting paraphernalia requires a successful Alchemy + Magic [Force] (Force of the target spirit, 1 day) Extended Test.\n\nAt the gamemaster&apos;s discretion specific refined or radical Reagents (p. 210, {i}SG{/i}) may be needed to manufacture certain materials. All reagents are consumed or incorporated into the finished product. Paraphernalia can be crafted by the magician himself or purchased from a capable talismonger (i.e., a contact with the necessary skills and resources to create the paraphernalia) as long as the magician understands the composition of the requested paraphernalia. The magician must understand the composition of the paraphernalia before the talismonger begins work.\n\nThe ritual Force required to call a spirit is equal to the Force of the spirit being called. In establishing the ritual&apos;s foundation, a circle similar to a basic ward is prepared. This circle is the only thing separating the spirit from the magician while they barter. The ward may be broken by the magician or anyone else participating in the ritual by physically breaking the circle. The ward may also be broken by the spirit if the spirit&apos;s Force is greater than the Force of the circle and the spirit wins an Opposed Test against it (Force of the spirit vs. Force of the foundation).\n\nThe paraphernalia are expended as part of Give the Offering, step 5 of the ritual (p. 307, {i}SR5{/i}). Once the ritual has been completed, the spirit that was called appears in the center of the circle. If the ritual fails, the spirit doesn&apos;t appear, and the paraphernalia and reagents are lost. The magician who wants to see another day can only hope there is no glitch when he calls a spirit.\n\nFor every two successes (not net successes) the spirit has, the gamemaster may raise the Force of the next spirit called. (for example, the magician wants a Force 5 apparition and instead calls a Force 6). If the spirit gets four or more successes, the gamemaster may also choose a different spirit class of the same type to have been summoned (praying mantis instead of a cockroach in calling an insect spirit). This uncertainty and escalating risk make the calling ritual dangerous and unreliable to dabblers in magic.\n\nThe spirit stays within the circle used in the ritual for a number of hours equal to the Force of the ritual before returning to wherever it originated by way of astral space. While in the circle, the spirit is temporarily immune to any inherit weakness and protected from any attacks by the magician. Reduce successes of any attacks by the force of the circle. All bets are off if either side breaches the circle.\n\nThe spirit called is obligated to materialize and negotiate with the magician. Note that although the spirit who answered the call is inclined to negotiate and not necessarily hostile, it may lose patience or become angry if not shown the respect it believes is due. This would be done through the usual story play and negotiation skills. Be wary of bargaining with spirits that have been called, as they may trick the caller into entering a spirit pact (p. 137, {i}SG{/i}).\n\nThe Calling ritual is conceptually a very old ritual. Awakened and mundane occultists are able, with the proper paraphernalia, to call a spirit. It is believed that the paraphernalia, not the magician, powers the ritual. When a mundane is performing this ritual, substitute Arcana for Ritual Spellcasting." compset="Ritual">
@@ -3883,6 +3864,554 @@ endif]]></evalrule>
     <tag group="RitAccess" tag="Mundane"/>
     <tag group="SkillDice" tag="skaArcana"/>
     <tag group="User" tag="Unique"/>
+    </thing>
+  <thing id="rvLAGAN822" name="Avibras-Nissan AN 822" description="Amazonia has one of the world’s largest demand for civilian helicopters, and they are extensively used to get around the mega city to avoid the hazards of road transportation. The Avibras-Nissan AN 822, built in partnership between the Japanese giant and a local Amazonian firm is specifically crafted for the reality of Metrópole air travel. It is small and nimble enough to dodge competing air traffic, some of which are large flying critters, such as dracoforms. It carries a suite of defensive measures to ward off the ever-present mid-air extraction risk. High-end executives, however, will always be driven by a rigger, either remotely or physically, or protected by an overwatching decker." compset="RaceVeh" replaces="rvAN822" uniqueness="unique">
+    <fieldval field="racCost" value="221500"/>
+    <fieldval field="racDiffHOn" value="5"/>
+    <fieldval field="racDiffSOn" value="6"/>
+    <fieldval field="racDiffAcc" value="3"/>
+    <fieldval field="racDiffBod" value="14"/>
+    <fieldval field="rvArmor" value="10"/>
+    <fieldval field="racDiffPil" value="3"/>
+    <fieldval field="racDiffSen" value="3"/>
+    <fieldval field="rvSeats" value="5"/>
+    <tag group="VehSpec" tag="spAirRot"/>
+    <tag group="VehicleCat" tag="Rotor"/>
+    <bootstrap thing="prAuManAir">
+      <autotag group="Equipment" tag="FixRating"/>
+      <autotag group="ProgIs" tag="Program"/>
+      <autotag group="Target1" tag="rvAN822"/>
+      <assignval field="grUser" value="2"/>
+      </bootstrap>
+    <bootstrap thing="prAuElecWa">
+      <autotag group="Equipment" tag="FixRating"/>
+      <autotag group="ProgIs" tag="Program"/>
+      <assignval field="grUser" value="2"/>
+      </bootstrap>
+    <bootstrap thing="prAuDefens">
+      <autotag group="Equipment" tag="FixRating"/>
+      <autotag group="ProgIs" tag="Program"/>
+      <autotag group="Target1" tag="rvAN822"/>
+      <assignval field="grUser" value="2"/>
+      </bootstrap>
+    <bootstrap thing="eqRigger"></bootstrap>
+    <bootstrap thing="mdManualOv"></bootstrap>
+    </thing>
+  <thing id="amLAGPainade" name="Painade" description="Officially called the Fichetti Pain Induction Area Denial Grenade, this item was quickly nicknamed the Painade by law enforcement and news agencies. The device uses the same microwave technology as the Fichetti Pain Inducer; anyone in the field the grenade generates feels like their skin is on fire. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target’s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. If the target cannot get out of the field, he is incapacitated with pain, suffering a dice pool modifier equal to the modified Power on all tests for as long as they are within the area of the grenade’s effect. The grenade projects this field for 5 Combat Turns, but miniaturization of the emitter causes the electronics to fry after use." compset="Ammunition" replaces="grPainade" stacking="merge">
+    <fieldval field="grCost" value="300"/>
+    <fieldval field="grAvail" value="9"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpBlast" value="10"/>
+    <fieldval field="shortname" value="Painade"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="AmmoType" tag="Grenade"/>
+    <tag group="WpDamType" tag="Special"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="wpLAGMorAlta" name="Morrissey Alta" description="Seamlessly integrating form and function, the Alta remains Morrissey’s standard-bearer in the pistol marketplace. The Alta’s fame largely stems from Morrissey’s endless pursuit of up-and-coming celebrities for endorsement deals and its prominence in the limited-run trade calendar Morrissey produces. Despite all the buzz, the Alta consistently produces results at the range and in the field. Nearly twenty years of production stands as testament to Morrissey’s devotion to quality and consistency.\n\n{i}Standard Accessories{/i}: Laser Sight (top)\n\nNote: Carrying this weapon does not incur a “wrong attire” penalty to Etiquette tests (p. 140, {i}SR5{/i}) in settings that privilege taste and refinement. A ban on weapons is still a ban, so don’t push your luck, chummer." compset="Ranged" replaces="wpMorAlta">
+    <fieldval field="grCost" value="800"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-1"/>
+    <fieldval field="wpAmmoCap" value="12"/>
+    <fieldval field="grAvail" value="7"/>
+    <tag group="Manufac" tag="Morrissey"/>
+    <tag group="WpCategory" tag="HeavyPst"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Mode" tag="SemiAuto"/>
+    <tag group="Armory" tag="Firearm"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <child entity="grCustRang">
+      <bootstrap thing="acLaser"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wpLAGUltiRain" name="Ultimax Rain Forest Carbine" description="The Ultimax Rain Forest is a short-barreled rifle designed to meet a design requirement for the Sumatran Alliance. The weapon met all of the government&apos;s criteria and has been purchased to equip the constabulary. The Rain Forest features a deep magazine well to protect the magazine from the moisture and dirt common in jungle climates. Integrating night-vision technology, the carbine is well adapted to operations under the double and triple canopies frequently encountered by users. The carbine is available through Matrix purchases as well as local retailers." compset="Ranged" replaces="wpUltiRain">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="grCost" value="2600"/>
+    <fieldval field="wpDamage" value="11"/>
+    <fieldval field="wpAP" value="-2"/>
+    <fieldval field="wpRecComp" value="1"/>
+    <fieldval field="wpAmmoCap" value="18"/>
+    <fieldval field="grAvail" value="8"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="Manufac" tag="Ultimax"/>
+    <tag group="WpCategory" tag="AssaultRif"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Mode" tag="SemiAuto"/>
+    <tag group="Mode" tag="Burst3"/>
+    <tag group="ReloadType" tag="Clip"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="Armory" tag="Firearm"/>
+    <child entity="grCustRang">
+      <bootstrap thing="eqRainScop"></bootstrap>
+      <bootstrap thing="mdFoldStoc"></bootstrap>
+      </child>
+    </thing>
+  <thing id="eqLAGExtClip" name="Extended Clip" description="Sometimes the job calls for the ability to fire more shots without taking time to reload. That is what an extended clip is for. A Rating 1 Extended Clip adds fifty percent more rounds to the gun&apos;s capacity, and a Rating 2 Extended Clip adds one hundred percent more rounds. The only downside is it makes a gun a bit harder to hide (+1 Concealability per Rating). More of an accessory than a modification, an Extended Clip does not use any modification slots." compset="Equipment" replaces="acExtClip">
+    <fieldval field="grAvail" value="6"/>
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="2"/>
+    <fieldval field="grCost" value="35"/>
+    <fieldval field="Value" value="1"/>
+    <tag group="EquipCat" tag="Accessory"/>
+    <tag group="AccessCat" tag="Firearm"/>
+    <tag group="Restricted" tag="Restricted" abbrev="R"/>
+    <eval phase="Traits" priority="5000"><![CDATA[
+      doneif (container.ishero <> 0)
+
+      ~only apply this if we're activated
+      if (activated <> 0) then
+        ~if we were user-added, apply the effects normally
+        doneif (isuser = 0)
+
+        ~multiply our existing ammo capacity by the multiplier we've
+        ~calculated
+        parent.field[wpAmmoCap].value *= field[Value].value
+        endif]]></eval>
+    <eval phase="Traits" priority="4900" index="2"><![CDATA[
+      ~note that this script, which only applies to bootstrapped mods, runs
+      ~slightly before the normal script.  That way, if you have a pre-installed
+      ~Extended Clip 1, and disable it in order to purchase Extended Clip 2,
+      ~we're certain that the reduction happens before the multiplication
+
+      field[Value].value += field[grRating].value * 0.5
+
+      doneif (container.ishero <> 0)
+
+      ~if we're bootstrapped, nothing happens, becuase we assume our effects
+      ~are already included in the ammo capacity.  However, if we're
+      ~un-equipped, reduce the ammo capacity of the weapon - the user has
+      ~decided to strip out this mod.
+      if (isuser = 0) then
+        if (field[grIsEquip].value = 0) then
+          parent.field[wpAmmoCap].value = round(parent.field[wpAmmoCap].value/field[Value].value,0,-1)
+          endif
+        endif]]></eval>
+    <evalrule phase="Validate" priority="10000" message="Placeholder"><![CDATA[if (parent.tagexpr[ReloadType.Clip|ReloadType.Belt|ReloadType.Drum] <> 0) then
+  @valid=1
+else
+  @valid=0
+  @message = "You can only load the extended clips mod on Clip, Belt, or Drum weapons."
+endif]]></evalrule>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="rvLAGFordBroad" name="Ford Broadcast" description="The primary news van of the Sixth World, the Ford Broadcast (and similar models) is the newsteamtransport of choice. A driver (who usually doubles as a sound man) and reporter sit up front, with room for two more (usually a cameraman and a technician) in the rear, plus storage space for ample gear (boom mics, cameras, etc.) all topped off with a powerful satellite transmit-ter and a built-in Compuforce TaskMaster drone controller to operate three CU^3 drones (drones not included in the van’s price), allowing for both a mobile uplink unit and an on-the-spot command and control response vehicle for breaking news updates. The Broadcast isn’t a particularly agile or well-armored machine, but can safely roll into the average bad neighborhood without fear of small-arms fire. Barrens with rocket launchers are another matter, of course.\n\n{b}Similar models:{/b} Nissan NV-1800 (newscast variant), S-K Sprinter NCV6 (special)" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racCost" value="50000"/>
+    <fieldval field="racDiffHOn" value="3"/>
+    <fieldval field="racDiffSOn" value="3"/>
+    <fieldval field="racDiffAcc" value="1"/>
+    <fieldval field="racDiffBod" value="16"/>
+    <fieldval field="rvArmor" value="12"/>
+    <fieldval field="racDiffPil" value="2"/>
+    <fieldval field="racDiffSen" value="4"/>
+    <fieldval field="rvSeats" value="4"/>
+    <usesource source="RHNoFuture" parent="UserParent" name="RunnerHub No Future"/>
+    <tag group="VehicleCat" tag="Van"/>
+    <tag group="VehSpec" tag="spGroWhee"/>
+    <bootstrap thing="rccCFTaskM"></bootstrap>
+    </thing>
+  <thing id="vehLAGFordBroad" name="Ford Broadcast" description="The primary news van of the Sixth World, the Ford Broadcast (and similar models) is the newsteamtransport of choice. A driver (who usually doubles as a sound man) and reporter sit up front, with room for two more (usually a cameraman and a technician) in the rear, plus storage space for ample gear (boom mics, cameras, etc.) all topped off with a powerful satellite transmit-ter and a built-in Compuforce TaskMaster drone controller to operate three CU^3 drones (drones not included in the van’s price), allowing for both a mobile uplink unit and an on-the-spot command and control response vehicle for breaking news updates. The Broadcast isn’t a particularly agile or well-armored machine, but can safely roll into the average bad neighborhood without fear of small-arms fire. Barrens with rocket launchers are another matter, of course.\n\n{b}Similar models:{/b} Nissan NV-1800 (newscast variant), S-K Sprinter NCV6 (special)" compset="Vehicle" stacking="never">
+    <fieldval field="grCost" value="50000"/>
+    <fieldval field="grAvail" value="8"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="VehicleCat" tag="Van" name="Vans" abbrev="Vans"/>
+    <minion id="Vehicle" ownmode="no" livefield="minEnabled" coupledfield="minCoupled">
+      <tag group="MinionSet" tag="Vehicle" name="Vehicle" abbrev="Vehicle"/>
+      <bootstrap thing="rvLAGFordBroad"></bootstrap>
+      </minion>
+    </thing>
+  <thing id="vehLAGSBCondor" name="Sikorsky-Bell Condor" description="While many channels have moved on to drone-cam reports, there’s still something about “Chopper Dave” reporting live from the sky, flitting over traffic, talking about car chases, or dipping low to get a good view of a gang war before slipping just out of the line of fire from a cheap RPG. The Condor is a simple two-man helicopter with openable windows and an upgraded sensor suite to allow all manner of camera updates. Ordinarily, it’s crewed by one pilot, while the co-pilot’s job is simply to keep an eye on what’s going on while shouting into a mic on live TV. Not a combat-worthy machine by any stretch, most corporate facilities tolerate the buzzing gnats in their airspace for a few minutes before waving them off. Those that don’t take the hint are usually met with “persuasion.”\n\n{b}Similar models:{/b} Robinson Raven IV, Airbus Eurocopter EC 215, Cicare CH-12X" compset="Vehicle" stacking="never">
+    <fieldval field="grCost" value="120000"/>
+    <fieldval field="grAvail" value="12"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="Restricted" tag="Restricted"/>
+    <tag group="VehicleCat" tag="Rotor"/>
+    <minion id="Vehicle" ownmode="no" livefield="minEnabled" coupledfield="minCoupled">
+      <tag group="MinionSet" tag="Vehicle" name="Vehicle" abbrev="Vehicle"/>
+      <bootstrap thing="rvLAGSBCondor"></bootstrap>
+      </minion>
+    </thing>
+  <thing id="rvLAGSBCondor" name="Sikorsky-Bell Condor" description="While many channels have moved on to drone-cam reports, there’s still something about “Chopper Dave” reporting live from the sky, flitting over traffic, talking about car chases, or dipping low to get a good view of a gang war before slipping just out of the line of fire from a cheap RPG. The Condor is a simple two-man helicopter with openable windows and an upgraded sensor suite to allow all manner of camera updates. Ordinarily, it’s crewed by one pilot, while the co-pilot’s job is simply to keep an eye on what’s going on while shouting into a mic on live TV. Not a combat-worthy machine by any stretch, most corporate facilities tolerate the buzzing gnats in their airspace for a few minutes before waving them off. Those that don’t take the hint are usually met with “persuasion.”\n\n{b}Similar models:{/b} Robinson Raven IV, Airbus Eurocopter EC 215, Cicare CH-12X" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racCost" value="120000"/>
+    <fieldval field="racDiffHOn" value="4"/>
+    <fieldval field="racDiffSOn" value="4"/>
+    <fieldval field="racDiffAcc" value="2"/>
+    <fieldval field="racDiffBod" value="12"/>
+    <fieldval field="rvArmor" value="9"/>
+    <fieldval field="racDiffPil" value="2"/>
+    <fieldval field="racDiffSen" value="6"/>
+    <fieldval field="rvSeats" value="2"/>
+    <usesource source="RHNoFuture" parent="UserParent" name="RunnerHub No Future"/>
+    <tag group="VehicleCat" tag="Rotor"/>
+    <tag group="VehSpec" tag="spAirRot"/>
+    <bootstrap thing="rccCFTaskM"></bootstrap>
+    </thing>
+  <thing id="eqLAGGraffiti" name="Graffiti Kit" description="While anyone can grab a can of spray paint (p. 258, Run Faster) and tag a wall, a Graffiti Kit has a selection of colors, several stencils, and quick-cleaning solvents, letting a young artisan quickly assemble an impressive display, remove the evidence form their own hands, then store the lot for a rapid escape. Protective goggles and a rebreather are highly recommended." compset="Equipment">
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="grCost" value="100"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <tag group="EquipCat" tag="Tools"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="wpLAGPitchfork" name="Pitchfork" description="Where you have torches, you gotta have pitchforks. The items are easy to find out on the farm, but sprawl-dwellers have to build their own out of meter sticks, cast-off fence parts, and so on. But it’s worth it—nothing gets the blood pumping like\na good ol’ mob!" compset="Melee">
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="3"/>
+    <fieldval field="wpDamage" value="2"/>
+    <fieldval field="wpReach" value="3"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="WpGroup" tag="Throwing"/>
+    <tag group="WpCategory" tag="Spear"/>
+    <tag group="Equipment" tag="TwoHand"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <eval phase="Final" priority="20001"><![CDATA[if (this.hero.tagcount[Specialty.spLAGYoYo] = 0) then
+  foreach pick in hero from WeaponBase where "WpCategory.YoYo"
+    perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
+    nexteach
+endif]]></eval>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="amLAGMoloCocktail" name="Molotov Cocktail" description="A classic first seen in Russia nearly a hundred and fifty years ago, the Molotov is simple enough to make: Take a glass bottle, fill it with gasoline, stuff a rag in the top, done. Light the “fuse,” hurl it at something you want to burn, then sit back and enjoy a crackling good time. They were absolute terrors against German tanks, with burning fuel slipping through joints and setting people, uniforms, and ammunition aflame. These days, there are some problems. Glass bottles have been generally replaced by bio-plastic, gas costs a ton, and modern armored vehicles are sealed against liquids. \n\nStill, they’re seen at any good riot, ruining many a Knight Errant enforcement officer’s day. Molotovs don’t come in wireless versions. Funny that!" compset="Ammunition" stacking="merge">
+    <fieldval field="grCost" value="15"/>
+    <fieldval field="grAvail" value="6"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-6"/>
+    <fieldval field="wpBlast" value="-4"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="ModCat" tag="Grenade" name="Cyberfinger, Grenade" abbrev="Cyberfinger, Grenade"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="WpDamSpec" tag="Fire"/>
+    <tag group="AmmoType" tag="Grenade" name="Grenades" abbrev="Grenades"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="wpLAGTorch" name="Torch" description="One of man’s first weapons, a torch is simply a piece of wood set on fire. A well-made one will be wrapped in an oil-soaked cloth to ensure a good burn, but in a pinch, a chair leg’ll do just fine. Not the fanciest of weapons, but it keeps most critters at bay." compset="Melee">
+    <fieldval field="grCost" value="10"/>
+    <fieldval field="dpLimit" value="3"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpReach" value="1"/>
+    <fieldval field="wpAP" value="-4"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="WpGroup" tag="Throwing"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <tag group="WpCategory" tag="Baton"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="WpDamSpec" tag="Fire"/>
+    <eval phase="Final" priority="20001"><![CDATA[if (this.hero.tagcount[Specialty.spLAGYoYo] = 0) then
+  foreach pick in hero from WeaponBase where "WpCategory.YoYo"
+    perform eachpick.field[DicePool].modify[-,99,"Cannot Default"]
+    nexteach
+endif]]></eval>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="eqLAGPressPass" name="Press Pass" description="There are some press credentials that are free, such as those given out to an event photographer, but legitimate cred costs nuyen. A press pass (which is registered to your SIN, of course) can be purchased from any media organization that’s willing to have you, giving some special access to areas. The press can enter a crime scene (but will always have an officer at their side to make sure they don’t disrupt anything), get into government functions, attend high-class parties (as long as they’re working) and gain some bonus legal protections. Note that many corporations don’t have a “freedom of the press” law in their corporate charter, so this is by no means a “get out of testimony free” card, but every real reporter carries one." compset="Equipment">
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="grCost" value="100"/>
+    <fieldval field="usrCandid1" value="IsGear.idIdentity | IsGear.idSinner"/>
+    <fieldval field="usrLabel1" value="Associated SIN"/>
+    <fieldval field="notUsage" value="Press passes must be assigned to an identity or SIN."/>
+    <usesource source="RHNoFuture"/>
+    <tag group="EquipCat" tag="Disguise"/>
+    <tag group="ChooseSrc1" tag="Hero"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <tag group="Equipment" tag="FixRating"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqLAGProCam" name="ProCam" description="ProCams are larger, higher-end cameras than most shadowrunners use, ideal for professional camera work. These are larger, shoulder-mounted or built into drones, quite impossible to hide but able to be absolutely stuffed with high-end optics. They can be found at any major event but are typically attached to a cameraman in the wake of a roving on-scene reporter." compset="Equipment">
+    <fieldval field="grCostRat" value="250"/>
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="12"/>
+    <fieldval field="grCapRat" value="1"/>
+    <fieldval field="grAvail" value="4"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="ModCatAllw" tag="Audio" name="Audio" abbrev="Audio"/>
+    <tag group="ModCatAllw" tag="Visual" name="Visual" abbrev="Visual"/>
+    <tag group="EquipCat" tag="Visual" name="Optical &amp; Imaging Devices" abbrev="Optical &amp; Imaging Devices"/>
+    <tag group="Equipment" tag="CanEquip" name="Show Equip Checkbox" abbrev="Show Equip Checkbox"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqLAGSmartCamEx" name="SmartCam External" description="SmartCams are spun out of smartgun technology, focused on allowing the user to get a better shot of a scene, not a target. There are external add-on SmartCam attachments, but they’re getting harder to find as cameras with an internal SmartCam system have continued to grow in market share. With less computation needed than the ballistics needs of a smartlink, a SmartCam can be used with any DNI but work best with a datajack. \n\nA camera of any kind has a limit equal to its rating. One with an external SmartCam adapter raises this limit by 1 while connected to a DNI, while an internal SmartCam does the same but can grant +2 to the limit by being connected to a datajack." compset="Equipment">
+    <fieldval field="grAvail" value="6"/>
+    <fieldval field="grCost" value="200"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="ModCat" tag="Visual" name="Visual" abbrev="Visual"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <eval phase="Effects" priority="99999"><![CDATA[doneif (activated = 0)
+if (parent.tagis[Equipment.IsWireless]<>0) then
+  debug "1"
+  perform parent.assign[Equipment.ShowWirele]
+endif
+
+
+parent.field[dvWireDesc].text = "+1 limit on tests to perceive using this device."]]></eval>
+    <evalrule phase="Validate" priority="10000" message="Placeholder"><![CDATA[if (parent.tagcount[ModInstall.eqLAGSmartCam?] > 1) then
+@valid = 0
+@message = "You may only have one SmartCam per device."
+else
+@valid = 1
+endif]]></evalrule>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqLAGSmartCamInt" name="SmartCam Internal" description="SmartCams are spun out of smartgun technology, focused on allowing the user to get a better shot of a scene, not a target. There are external add-on SmartCam attachments, but they’re getting harder to find as cameras with an internal SmartCam system have continued to grow in market share. With less computation needed than the ballistics needs of a smartlink, a SmartCam can be used with any DNI but work best with a datajack. \n\nA camera of any kind has a limit equal to its rating. One with an external SmartCam adapter raises this limit by 1 while connected to a DNI, while an internal SmartCam does the same but can grant +2 to the limit by being connected to a datajack." compset="Equipment">
+    <fieldval field="grAvail" value="6"/>
+    <fieldval field="grCostPrnt" value="2"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="ModCat" tag="Visual" name="Visual" abbrev="Visual"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <eval phase="Effects" priority="99999"><![CDATA[doneif (activated = 0)
+if (parent.tagis[Equipment.IsWireless]<>0) then
+  debug "1"
+  perform parent.assign[Equipment.ShowWirele]
+endif
+
+
+parent.field[dvWireDesc].text = "+2 limit on tests to perceive using this device."]]></eval>
+    <evalrule phase="Validate" priority="10000" message="Placeholder"><![CDATA[if (parent.tagcount[ModInstall.eqLAGSmartCam?] > 1) then
+@valid = 0
+@message = "You may only have one SmartCam per device."
+else
+@valid = 1
+endif]]></evalrule>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="auLAGCybereye" name="Cybereyes" description="The basic cybereyes system features 20/20 vision for both eyes, an image link, and a built-in camera at no extra cost, as well as capacity for vision enhancements." compset="Augment" replaces="auCybereye" uniqueness="useronce">
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="6"/>
+    <arrayval field="grCostArr" index="1" value="4000"/>
+    <arrayval field="grCostArr" index="2" value="6000"/>
+    <arrayval field="grCostArr" index="3" value="10000"/>
+    <arrayval field="grCostArr" index="4" value="14000"/>
+    <arrayval field="grCostArr" index="5" value="18000"/>
+    <arrayval field="grCostArr" index="6" value="22000"/>
+    <arrayval field="grAvailArr" index="1" value="3"/>
+    <arrayval field="grAvailArr" index="2" value="6"/>
+    <arrayval field="grAvailArr" index="3" value="9"/>
+    <arrayval field="grAvailArr" index="4" value="12"/>
+    <arrayval field="grAvailArr" index="5" value="15"/>
+    <arrayval field="grAvailArr" index="6" value="18"/>
+    <arrayval field="grEssArr" index="1" value="0.2"/>
+    <arrayval field="grEssArr" index="2" value="0.3"/>
+    <arrayval field="grEssArr" index="3" value="0.4"/>
+    <arrayval field="grEssArr" index="4" value="0.5"/>
+    <arrayval field="grEssArr" index="5" value="0.6"/>
+    <arrayval field="grEssArr" index="6" value="0.7"/>
+    <arrayval field="grCapArr" index="1" value="4"/>
+    <arrayval field="grCapArr" index="2" value="8"/>
+    <arrayval field="grCapArr" index="3" value="12"/>
+    <arrayval field="grCapArr" index="4" value="16"/>
+    <arrayval field="grCapArr" index="5" value="20"/>
+    <arrayval field="grCapArr" index="6" value="24"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="ModCatAllw" tag="Eyeware" name="Eyeware" abbrev="Eyeware"/>
+    <tag group="AugCat" tag="Eyeware" name="Eyeware" abbrev="Eyeware"/>
+    <tag group="AugExclude" tag="Eyes" name="Eyes" abbrev="Eyes"/>
+    <tag group="Augment" tag="Cyber" name="Cyberware" abbrev="Cyberware"/>
+    <tag group="ModCatAllw" tag="Casemod" name="Casemod" abbrev="Casemod"/>
+    <child entity="grCustom">
+      <bootstrap thing="auImagLink"></bootstrap>
+      </child>
+    </thing>
+  <thing id="auLAGCyberear" name="Cyberears" description="Ordinarily, cyberears replace only the inner ear, although the whole thing can be replaced as well if you like. Cyberears offer hearing with normal ranges (like an omni-directional microphone), a sound link, and Capacity for modifications and enhancements." compset="Augment" replaces="auCyberear" uniqueness="useronce">
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="6"/>
+    <arrayval field="grEssArr" index="1" value="0.2"/>
+    <arrayval field="grEssArr" index="2" value="0.3"/>
+    <arrayval field="grEssArr" index="3" value="0.4"/>
+    <arrayval field="grEssArr" index="4" value="0.5"/>
+    <arrayval field="grEssArr" index="5" value="0.6"/>
+    <arrayval field="grEssArr" index="6" value="0.7"/>
+    <arrayval field="grCapArr" index="1" value="4"/>
+    <arrayval field="grCapArr" index="2" value="8"/>
+    <arrayval field="grCapArr" index="3" value="12"/>
+    <arrayval field="grCapArr" index="4" value="16"/>
+    <arrayval field="grCapArr" index="5" value="20"/>
+    <arrayval field="grCapArr" index="6" value="24"/>
+    <arrayval field="grAvailArr" index="1" value="3"/>
+    <arrayval field="grAvailArr" index="2" value="6"/>
+    <arrayval field="grAvailArr" index="3" value="9"/>
+    <arrayval field="grAvailArr" index="4" value="12"/>
+    <arrayval field="grAvailArr" index="5" value="15"/>
+    <arrayval field="grAvailArr" index="6" value="18"/>
+    <arrayval field="grCostArr" index="1" value="3000"/>
+    <arrayval field="grCostArr" index="2" value="4500"/>
+    <arrayval field="grCostArr" index="3" value="7500"/>
+    <arrayval field="grCostArr" index="4" value="11000"/>
+    <arrayval field="grCostArr" index="5" value="15500"/>
+    <arrayval field="grCostArr" index="6" value="21000"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="ModCatAllw" tag="Casemod" name="Casemod" abbrev="Casemod"/>
+    <tag group="ModCatAllw" tag="Earware" name="Earware" abbrev="Earware"/>
+    <tag group="AugCat" tag="Earware" name="Earware" abbrev="Earware"/>
+    <tag group="Augment" tag="Cyber" name="Cyberware" abbrev="Cyberware"/>
+    <child entity="grCustom">
+      <bootstrap thing="auSounLink"></bootstrap>
+      </child>
+    </thing>
+  <thing id="auLAGAudiEnha" name="Audio Enhancement" description="An implanted version of audio enhancement (p. 445)\n\n{b}Audio Enhancement{/b}\nAudio enhancement allows the user to hear a broader spectrum of audio frequencies, including high and low frequencies outside the normal metahuman audible spectrum. The user also experiences fine discrimination of nuances and can block out distracting background noise. Audio enhancement adds its Rating to your limit in audio Perception Tests." compset="Augment" replaces="auAudiEnha" uniqueness="useronce">
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="6"/>
+    <fieldval field="dvWireDesc" value="Add the audio enhancement&apos;s rating as a dice pool modifier to your audio Perception Tests."/>
+    <fieldval field="grAvailRat" value="3"/>
+    <arrayval field="grCostArr" index="1" value="4000"/>
+    <arrayval field="grCostArr" index="2" value="8000"/>
+    <arrayval field="grCostArr" index="3" value="12000"/>
+    <arrayval field="grCostArr" index="4" value="20000"/>
+    <arrayval field="grCostArr" index="5" value="25000"/>
+    <arrayval field="grCostArr" index="6" value="30000"/>
+    <arrayval field="grSpaceArr" index="1" value="1"/>
+    <arrayval field="grSpaceArr" index="2" value="2"/>
+    <arrayval field="grSpaceArr" index="3" value="3"/>
+    <arrayval field="grSpaceArr" index="4" value="8"/>
+    <arrayval field="grSpaceArr" index="5" value="10"/>
+    <arrayval field="grSpaceArr" index="6" value="12"/>
+    <arrayval field="grEssArr" index="1" value=".1"/>
+    <arrayval field="grEssArr" index="2" value=".1"/>
+    <arrayval field="grEssArr" index="3" value=".1"/>
+    <arrayval field="grEssArr" index="4" value=".2"/>
+    <arrayval field="grEssArr" index="5" value=".2"/>
+    <arrayval field="grEssArr" index="6" value=".2"/>
+    <tag group="Augment" tag="Cyber" name="Cyberware" abbrev="Cyberware"/>
+    <tag group="ModCat" tag="Earware" name="Earware" abbrev="Earware"/>
+    <tag group="AugCat" tag="Earware" name="Earware" abbrev="Earware"/>
+    <eval phase="Traits" priority="12000"><![CDATA[
+      doneif (activated = 0)
+
+      #situationallimit[hero.childfound[skaPercep],signed(field[grRating].value) & " for audio perception tests.",field[thingname].text]]]>
+      <after name="Calc grRating Final"/>
+      </eval>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="auLAGVisiEnha" name="Vision Enhancement" description="An implanted version of vision enhancement (p. 444).\n\n{b}Vision Enhancement{/b}\nThis sharpens a character&apos;s vision at all ranges, providing visual acuity closer to that of the average hawk than that of the average metahuman. It adds its Rating as a positive modifier to your limit on visual Perception Tests." compset="Augment" replaces="auVisiEnha" uniqueness="useronce">
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="6"/>
+    <fieldval field="grAvailRat" value="3"/>
+    <fieldval field="dvWireDesc" value="Add the vision enhancement&apos;s rating as a dice pool modifier to your visual Perception Tests."/>
+    <arrayval field="grCostArr" index="1" value="4000"/>
+    <arrayval field="grCostArr" index="2" value="8000"/>
+    <arrayval field="grCostArr" index="3" value="12000"/>
+    <arrayval field="grCostArr" index="4" value="20000"/>
+    <arrayval field="grCostArr" index="5" value="25000"/>
+    <arrayval field="grCostArr" index="6" value="30000"/>
+    <arrayval field="grSpaceArr" index="1" value="1"/>
+    <arrayval field="grSpaceArr" index="2" value="2"/>
+    <arrayval field="grSpaceArr" index="3" value="3"/>
+    <arrayval field="grSpaceArr" index="4" value="8"/>
+    <arrayval field="grSpaceArr" index="5" value="10"/>
+    <arrayval field="grSpaceArr" index="6" value="12"/>
+    <arrayval field="grEssArr" index="1" value=".1"/>
+    <arrayval field="grEssArr" index="2" value=".1"/>
+    <arrayval field="grEssArr" index="3" value=".1"/>
+    <arrayval field="grEssArr" index="4" value=".2"/>
+    <arrayval field="grEssArr" index="5" value=".2"/>
+    <arrayval field="grEssArr" index="6" value=".2"/>
+    <tag group="Augment" tag="Cyber" name="Cyberware" abbrev="Cyberware"/>
+    <tag group="ModCat" tag="Eyeware" name="Eyeware" abbrev="Eyeware"/>
+    <tag group="AugCat" tag="Eyeware" name="Eyeware" abbrev="Eyeware"/>
+    <eval phase="Traits" priority="12000"><![CDATA[
+      doneif (activated = 0)
+
+      #situationallimit[hero.childfound[skaPercep],signed(field[grRating].value) & " for visual perception tests.",field[thingname].text]]]>
+      <after name="Calc grRating Final"/>
+      </eval>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="auLAGAudioTune" name="Audiotune" description="The concept of a cyber-augmented throat has been around for decades and is present in some highly illegal hardware that allowed for voice modulators to be used to duplicate other people’s voiceprints. Amore musical-aligned (and legal) version has been around since the early ’70s. Known as “AutoVoice,” it led to a brief flurry of cybernetic-voiced artists who, before the addition, couldn’t carry a tune. Used at a normal setting, the AutoVoice controls airflow through the voice box, and the voice box’s own vibrations, to hit and hold notes as needed. With some software tweaks, this can be turned into a more mechanical sound (creating that distinct AutoVoiced sound of a few years back) or used to pitch the user’s voice up or down but still recognizable only as their own. Software hacks to allow more illegal operation now circle the Shadownet.\n\nAutoVoice replaces the user’s own limit for singing skills with its Rating." compset="Augment" uniqueness="useronce">
+    <fieldval field="dvWireDesc" value="The AutoVoice allows the user to broadcast to a local audio network without a mic."/>
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="6"/>
+    <fieldval field="grCostRat" value="1000"/>
+    <fieldval field="grAvailRat" value="1"/>
+    <fieldval field="grEssence" value=".2"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="AugCat" tag="Headware"/>
+    <tag group="Augment" tag="Cyber"/>
+    <tag group="Show" tag="SpecialTab"/>
+    <eval phase="Final" priority="100000"><![CDATA[doneif (activated = 0)
+~perform #limit[skaPerform,=,this.field[grRating].value,""]
+var diff as number
+diff = this.field[grRating].value - hero.child[skaPerform].field[dpLimit].value 
+if (diff > 0) then
+  perform hero.child[skaPerform].field[dpLimit].modify[+,diff,""]
+endif]]></eval>
+    <evalrule phase="Validate" priority="10000" message="placeholder"><![CDATA[var counter as number
+counter = 0
+foreach pick in hero from Augment where "thingid.auLAGAudioTun?"
+  counter += 1
+nexteach
+if (counter > 1) then
+  @valid = 0
+  @message = "You may only have one Audiotune."
+else
+  @valid = 1
+endif]]></evalrule>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="auLAGAudioTuneHac" name="Audiotune (Hacked)" description="The concept of a cyber-augmented throat has been around for decades and is present in some highly illegal hardware that allowed for voice modulators to be used to duplicate other people’s voiceprints. Amore musical-aligned (and legal) version has been around since the early ’70s. Known as “AutoVoice,” it led to a brief flurry of cybernetic-voiced artists who, before the addition, couldn’t carry a tune. Used at a normal setting, the AutoVoice controls airflow through the voice box, and the voice box’s own vibrations, to hit and hold notes as needed. With some software tweaks, this can be turned into a more mechanical sound (creating that distinct AutoVoiced sound of a few years back) or used to pitch the user’s voice up or down but still recognizable only as their own. Software hacks to allow more illegal operation now circle the Shadownet.\n\nAutoVoice replaces the user’s own limit for singing skills with its Rating." compset="Augment" uniqueness="useronce">
+    <fieldval field="dvWireDesc" value="The AutoVoice allows the user to broadcast to a local audio network without a mic."/>
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="6"/>
+    <fieldval field="grCostRat" value="4000"/>
+    <fieldval field="grAvailRat" value="3"/>
+    <fieldval field="grEssence" value=".2"/>
+    <usesource source="RHNoFuture"/>
+    <tag group="AugCat" tag="Headware"/>
+    <tag group="Augment" tag="Cyber"/>
+    <tag group="Restricted" tag="Forbidden"/>
+    <tag group="Show" tag="SpecialTab"/>
+    <eval phase="Final" priority="100000"><![CDATA[doneif (activated = 0)
+~perform #limit[skaPerform,=,this.field[grRating].value,""]
+var diff as number
+diff = this.field[grRating].value - hero.child[skaPerform].field[dpLimit].value 
+if (diff > 0) then
+  perform hero.child[skaPerform].field[dpLimit].modify[+,diff,""]
+endif]]></eval>
+    <evalrule phase="Validate" priority="10000" message="????"><![CDATA[var counter as number
+counter = 0
+foreach pick in hero from Augment where "thingid.auLAGAudioTun?"
+  counter += 1
+nexteach
+if (counter > 1) then
+  @valid = 0
+  @message = "You may only have one Audiotune."
+else
+  @valid = 1
+endif]]></evalrule>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="auLAGVocalExp" name="Vocal Expansion" description="A terrifying upgrade usually undertaken only by those who’ve suffered throat damage but sometimes gambled on by those who need the extra edge to break in, vocal expansion is a series of minor bioware improvements to the throat and lungs, controlling the flow of air through the voice box, strengthening the user’s natural abilities to create longer, clearer notes, a more powerful sound, and a throat more resistant to hoarseness and strain. If it goes wrong, it can ruin someone’s career forever or, in a worst-case scenario, render them mute. Currently the upgrade is reserved to beta or delta clinics, but once perfected, it should filter down to standard clinics in a few years.\n\nA vocal expansion raises the user’s natural limit for Leadership and Performance (singing) skills by its rating." compset="Augment" uniqueness="useronce">
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="3"/>
+    <fieldval field="grCostRat" value="8000"/>
+    <fieldval field="grAvailRat" value="6"/>
+    <fieldval field="grEssence" value=".1"/>
+    <tag group="AugCat" tag="Bioware"/>
+    <tag group="Augment" tag="Bio"/>
+    <eval phase="Final" priority="100000"><![CDATA[var blurb as string 
+blurb = "+" & this.field[grRating].value & " when singing"
+
+#situationallimit[hero.child[skaPerform],blurb,field[thingname].text]
+perform #limit[skaLeader,+,this.field[grRating].value,""]]]></eval>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="quLAGCandleDark" name="Candle in the Dark" description="In a world of “I got mine Jack,” the rare person with an actual code of honor stands out like a candle in the darkness. Showing that it’s an actual code that defines their life, that they’re willing to make sacrifices to do the right thing even if it hurts themselves? Yeah, some people will dismiss them as a sucker, but those who see the truth find themselves believing. Turns out that when people see a light in the darkness, they’re drawn to it. \n\nAs long as the character doesn’t break their Code of Honor, all contacts are treated as having a Loyalty 2 higher than their actual rating. If the character breaks their Code of Honor, the contacts are treated as having 1 Loyalty less than their rating until the mistake can be corrected." compset="Quality" uniqueness="useronce">
+    <fieldval field="trtBPCost" value="5"/>
+    <fieldval field="usrChkText" value="Code Broken?"/>
+    <fieldval field="notUsage" value="Due to system limits, contact loyalty must be manually adjusted. This should be done immediately after leaving Creation mode. During play contact loyalties must be manually adjusted."/>
+    <tag group="QualityCat" tag="Positive"/>
+    <exprreq message="A Code of Honor Negative Quality is required."><![CDATA[#hasability[quCode?] <> 0]]></exprreq>
     </thing>
   <hidden id="riCalling"/>
   </document>
