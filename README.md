@@ -35,9 +35,9 @@ Part 2: Using the Mod
 
 1. Create a blank new portfolio, and open the Configure Hero screen(ctrl+K)
 1. Click “Click to change Hero settings”
-![Change Defaults](https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/Step%212.png)
+![Change Defaults](https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/Step%2012.png)
 1. Check all Runner Hub options, then click Set Defaults.
-![Set Defaults](https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/Step%213.png)
+![Set Defaults](https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/Step%2013.png)
 
 At this point all **new** portfolios will have the mod enabled automatically. 
 
