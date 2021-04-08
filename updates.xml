@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document signature="Lone Wolf Updates" version="1">
-<update name="RunnerHub House Rules and Fixes (V1.5)" date="2021/02/03:1842" size="107" description="German CRB and R5 content is done!" uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" website="" companyurl="" priority="99" major="1" minor="5" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
+<update name="RunnerHub House Rules and Fixes (V1.6)" date="2021/04/07:2042" size="108" description="Limb mods now inherit their parent&apos;s grades" uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" website="" companyurl="" priority="99" major="1" minor="6" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
 </document>
