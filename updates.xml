@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document signature="Lone Wolf Updates" version="1">
-<update name="RunnerHub House Rules and Fixes (V2.9) (V2.9)" date="2022/02/08:2329" size="111" description="Fixed a bug with Critical Strike and Exotic Melee. Please remove and re-add any ranks in Monofilament Weapons after updating." uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" website="" companyurl="" priority="99" major="2" minor="9" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
+<update name="RunnerHub House Rules and Fixes  (V3.0)" date="2022/02/17:2114" size="115" description="Way of the Samurai qualities added in preparation for official Runnerhub release." uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/blob/HL-AutoUpdate/RunnerHubMod.hl" website="" companyurl="" priority="99" major="3" minor="0" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
 </document>
