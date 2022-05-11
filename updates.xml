@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document signature="Lone Wolf Updates" version="1">
-<update name="House Rules and Fixes (V3.0)" date="2022/03/02:1308" size="115" description="Way of the Samurai qualities added in preparation for official Runnerhub release." uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" website="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" companyurl="" priority="99" major="3" minor="0" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
+<update name="House Rules and Fixes (V3.1)" date="2022/05/10:1723" size="118" description="Fixed Protype Materials(check your qualities), added German Magical Traditions." uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" website="" companyurl="" priority="99" major="3" minor="1" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
 </document>
