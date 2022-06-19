@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document signature="Lone Wolf Updates" version="1">
-<update name="House Rules and Fixes (V3.2)" date="2022/06/15:1552" size="119" description="Added Coyote mentor, fixed a glitch in Raven Mentor (check your PP allocation)" uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" website="" companyurl="" priority="99" major="3" minor="2" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
+<update name="House Rules and Fixes (V3.3)" date="2022/06/19:1550" size="121" description="TWSA fixed(remove and re-add TWSA to your sheet)" uniqueid="0" filetype="3" download="https://github.com/Hubkeep/Runnerhub-HeroLab/raw/HL-AutoUpdate/RunnerHubMod.hl" website="" companyurl="" priority="99" major="3" minor="3" patch="" folder="shadowrun5" special="RunnerHub" dynamic="" platform="unspecified"/>
 </document>
